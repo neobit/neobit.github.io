@@ -2,11 +2,11 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Prompt Builder - HTML + JS + CSS (com Presets e Clear)</title>
+  <title>Prompt Builder - HTML + JS + CSS</title>
   <style>
     * {
       box-sizing: border-box;
-      margin: 0;
+      margin: 0; 
       padding: 0;
     }
     body {
@@ -118,19 +118,6 @@
       cursor: pointer;
       font-size: 0.8rem;
     }
-    /* Sessão de presets */
-    #presetsBox {
-      background-color: #1c1c1c;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 8px;
-      border: 1px solid #333;
-    }
-    #presetsBox h2 {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
     /* Painel direito */
     #rightPanel {
       width: 450px;
@@ -161,21 +148,7 @@
     <h1 id="title">Prompt Builder</h1>
     <button id="clearButton">Clear Selections</button>
 
-    <!-- Caixa de Presets (nova) -->
-    <div id="presetsBox">
-      <h2>Character Presets</h2>
-      <select id="presetSelect">
-        <option value="">-- Selecione --</option>
-        <option value="Yumy">Yumy</option>
-        <option value="Netsu">Netsu</option>
-        <option value="Kari">Kari</option>
-        <option value="Kana">Kana</option>
-        <option value="Satomi">Satomi</option>
-      </select>
-      <button id="applyPresetButton" style="margin-left: 0.5rem;">Apply Preset</button>
-    </div>
-
-    <!-- Raiz onde as categorias são exibidas -->
+    <!-- Aqui vão as categorias (renderizadas via JS) -->
     <div id="categoriesRoot"></div>
 
     <!-- Duas áreas separadas para prompts -->
@@ -206,7 +179,7 @@
 <script>
 // ====================== DATA =========================
 
-// Categorias e tags
+// Mesmo que antes:
 const categories = {
   "Main Prompt": {
     "Artstyle": ["Yumykon", "Fizzeru", "Megrocks"],
@@ -222,7 +195,6 @@ const categories = {
     "Camera Framing": ["close-up", "portrait", "upper body", "cowboy shot", "feet out of frame", "full body", "wide shot", "very wide shot"],
     "Camera Angle": ["facing viewer", "from above", "from behind", "from below", "from side", "profile", "sideways", "upside-down", "dutch angle", "multiple views", "zoom layer", "reference sheet"],
     "Character Pose": ["dynamic pose", "standing", "falling", "jumping", "model pose", "suggestive pose", "senal pose", "fighting pose", "cute pose", "happy pose", "v sign pose"],
-    // E assim por diante (as demais, igual antes)
     "Hair Lenght": ["very short hair", "short hair", "medium hair", "long hair", "very long hair", "absurdly long hair", "big hair"],
     "Hair Style": ["asymmetrical hair", "bob cut", "braid", "french braid", "ponytail", "high ponytail", "low ponytail", "side ponytail", "shot ponytail", "folded ponytail", "braid ponytail", "tapoknot", "twintails", "half updo", "pompadour", "afro", "tomboy", "bangs", "blunt bang", "hair between eyes", "hair over eyes", "hair over one eye", "parted bangs", "swept bangs", "sidelocks", "ahoge", "heart ahoge", "hair antenna", "hair pulled back", "hair slicked back"],
     "Hair structure": ["curly hair", "messy hair", "spiked hair", "straight hair", "wavy hair"],
@@ -230,19 +202,18 @@ const categories = {
     "Hair Color": ["multicolored hair", "colored inner hair", "colored tips", "gradient hair", "rainbow hair", "split-color hair", "streaked hair", "two-tone hair", "black hair", "blonde hair", "blue hair", "brown hair", "green hair", "grey hair", "orange hair", "pink hair", "purple hair", "red hair", "white hair"],
     "Eyes": ["aqua eyes", "black eyes", "blue eyes", "brown eyes", "green eyes", "grey eyes", "orange eyes", "purple eyes", "pink eyes", "red eyes", "white eyes", "yellow eyes", "horizontal pupils", "slit pupils", "symbol-shaped pupils", "star-shaped pupils", "diamond-shaped pupils", "flower-shaped pupils", "heart-shaped pupils", "mismatched pupils", "black sclera", "bags under eyes", "flaming eyes", "glowing eyes"],
     "Skin": ["black skin", "blue skin", "green skin", "grey skin", "orange skin", "pink skin", "purple skin", "red skin", "white skin", "yellow skin", "freckles", "makeup", "lipstick", "scar on face"],
-    "Facial Expression": ["sad expression", "depressive", "blushed", "happy expression", "seductive gaze", "neutral gaze", "angry expression", "surprised expression", "confident smile", "mysterious smile", "arched eyebrows", "intense eye contact", "look from below", "sultry gaze", "bedroom eyes"],
+    "Facial Expression": ["sad looking", "depressive", "blushed", "happy expression", "sad expression", "seductive gaze", "neutral gaze", "angry expression", "surprised expression", "confident smile", "mysterious smile", "arched eyebrows", "intense eye contact", "look from below", "sultry gaze", "bedroom eyes"],
     "Body": ["skinny", "petite", "curvy", "plump", "fat", "obese", "toned", "abs", "muscular"],
     "Breasts": ["flat chest", "small breasts", "medium breasts", "big breasts", "large breasts", "huge breasts", "gigantics breasts"],
     "Head clothing": ["baseball cap", "crown", "hair ribbon", "helmet", "beret", "horns", "glasses", "mask"],
     "Neck": ["scarf", "necklace", "goggles around neck", "red tie"],
     "Torso Clothing": ["black blazer", "dress shirt", "pink tshirt", "cropped jacket", "jacket", "dress", "dress shirt", "tank top", "cropped top", "black sweater", "white collar", "cyan cropped top", "white crop top"],
     "Torso Clothing Adjetives": ["cleavage", "sideboob", "strapless", "puff sleeve", "revealing cleavage", "sleeveless", "open clothes"],
-    "Legwear": ["skirt", "pants", "pelvic curtain", "shorts", "leggings", "pantyhose", "denim mini shorts", "jeans shorts", "leather belt", "blue panties", "balck pleated skirt"],
+    "Legwear": ["skirt", "pants", "pelvic curtain", "shorts", "leggings", "pantyhose", "denim mini shorts", "jeans shorts", "leather belt", "black panties", "black pleated skirt"],
     "Foot": ["red sneakers", "boots", "slippers", "slouch socks", "white loose socks", "black high socks"]
   }
 };
 
-// Categorias que aceitam texto adicional
 const textInputCategories = [
   "Quality tags", "Head clothing", "Neck", "Torso Clothing", "Legwear", "Foot", 
   "Background", "Character Pose"
@@ -256,38 +227,6 @@ let selectedOptions = {
   "Quality tags": ["best quality", "amazing quality", "masterpiece"],
   "Color tags": ["colorful"],
   "Background": ["white background"]
-};
-
-// Presets de personagens
-const presets = {
-  "Yumy": [
-    "medium hair", "high ponytail", "parted bangs", "black hair", "black eyes", 
-    "white skin", "happy expression", "small breasts", 
-    "black sweater", "white collar", "denim mini shorts", 
-    "red sneakers", "white loose socks"
-  ],
-  "Netsu": [
-    "medium hair", "high ponytail", "swept bangs", "black hair", "yellow eyes", 
-    "white skin", "confident smile", "sultry gaze", "curvy", "big breasts", 
-    "cyan cropped top", "puff sleeve", "denim mini shorts", "slippers"
-  ],
-  "Kari": [
-    "very short hair", "tomboy", "messy hair", "multicolored hair", "black hair", 
-    "red hair", "red eyes", "white skin", "blushed", "sultry gaze", "intense eye contact", 
-    "toned", "medium breasts", "cropped jacket", "white crop top", "puff sleeve", 
-    "jeans shorts", "red sneakers"
-  ],
-  "Kana": [
-    "very short hair", "very long hair", "sidelocks", "messy hair", "blonde hair", 
-    "aqua eyes", "white skin", "blushed", "sad expression", "happy expression", 
-    "petite", "medium breasts", "pink tshirt", "black panties", "black high socks"
-  ],
-  "Satomi": [
-    "medium hair", "hair between eyes", "hair antenna", "sidelocks", "spiked hair", 
-    "white hair", "multicolored hair", "purple hair", "purple eyes", "white skin", 
-    "neutral gaze", "intense eye contact", "petite", "small breasts", "red tie", 
-    "black blazer", "dress shirt", "black pleated skirt", "pantyhose"
-  ]
 };
 
 // Para campos de texto
@@ -315,9 +254,12 @@ function toggleOption(category, option) {
   if (!selectedOptions[category]) {
     selectedOptions[category] = [];
   }
+
   if (isSingleSelectionCategory(category)) {
+    // Single selection
     selectedOptions[category] = [option];
   } else {
+    // Multiple
     if (selectedOptions[category].includes(option)) {
       selectedOptions[category] = selectedOptions[category].filter(o => o !== option);
     } else {
@@ -354,7 +296,6 @@ function generateMainPrompt() {
   for (let category in mainSections) {
     let finalOptions = selectedOptions[category] || [];
     if (category === "Artstyle") {
-      // Se for a categoria Artstyle, adiciona " artstyle"
       finalOptions = finalOptions.map(opt => opt + " artstyle");
     }
     output.push(...finalOptions);
@@ -380,51 +321,9 @@ function copyToClipboard(str) {
   });
 }
 
-// =================== PRESETS ====================
-
-function findCategoryOfTag(tag) {
-  // Procura em Main Prompt
-  for (let cat in categories["Main Prompt"]) {
-    if (categories["Main Prompt"][cat].includes(tag)) {
-      return cat;
-    }
-  }
-  // Procura em Character Prompt
-  for (let cat in categories["Character Prompt"]) {
-    if (categories["Character Prompt"][cat].includes(tag)) {
-      return cat;
-    }
-  }
-  return null; // não encontrou
-}
-
-function applyPreset(presetName) {
-  // Limpa tudo antes de aplicar
-  selectedOptions = {};
-  textValues = {};
-
-  if (!presets[presetName]) return;
-
-  presets[presetName].forEach(tag => {
-    const cat = findCategoryOfTag(tag);
-    if (cat) {
-      if (!selectedOptions[cat]) {
-        selectedOptions[cat] = [];
-      }
-      if (isSingleSelectionCategory(cat)) {
-        selectedOptions[cat] = [tag];
-      } else {
-        if (!selectedOptions[cat].includes(tag)) {
-          selectedOptions[cat].push(tag);
-        }
-      }
-    }
-  });
-  renderAll();
-}
-
 // ====================== RENDERIZAÇÃO =========================
 
+// Monta HTML de cada type (Main Prompt / Character Prompt)
 function renderCategories() {
   const categoriesRoot = document.getElementById("categoriesRoot");
   categoriesRoot.innerHTML = ""; // limpa
@@ -439,6 +338,7 @@ function renderCategories() {
     title.textContent = type;
     groupDiv.appendChild(title);
 
+    // Cada categoria
     for (let category in sections) {
       const catDiv = document.createElement("div");
       catDiv.className = "categoryBox";
@@ -448,10 +348,12 @@ function renderCategories() {
       catTitle.textContent = category;
       catDiv.appendChild(catTitle);
 
+      // Row
       const rowDiv = document.createElement("div");
       rowDiv.className = "checkboxRow";
       catDiv.appendChild(rowDiv);
 
+      // Opções
       const options = sections[category];
       options.forEach(option => {
         const container = document.createElement("div");
@@ -459,7 +361,7 @@ function renderCategories() {
 
         container.addEventListener("mouseenter", () => {
           hoveredImage = imagePathFromOption(option);
-          renderPreview();
+          renderPreview(); 
         });
         container.addEventListener("mouseleave", () => {
           hoveredImage = null;
@@ -512,10 +414,12 @@ function renderCategories() {
 
       groupDiv.appendChild(catDiv);
     }
+
     categoriesRoot.appendChild(groupDiv);
   }
 }
 
+// Renderiza as duas áreas de prompt
 function renderPrompts() {
   const mainPrompt = generateMainPrompt();
   const charPrompt = generateCharacterPrompt();
@@ -528,6 +432,7 @@ function renderPrompts() {
   document.getElementById("copyChar").onclick = () => copyToClipboard(charPrompt);
 }
 
+// Renderiza a imagem de preview
 function renderPreview() {
   const previewImage = document.getElementById("previewImage");
   const previewFallback = document.getElementById("previewFallback");
@@ -542,6 +447,7 @@ function renderPreview() {
   }
 }
 
+// Renderiza tudo
 function renderAll() {
   renderCategories();
   renderPrompts();
@@ -550,14 +456,6 @@ function renderAll() {
 
 // ====================== EVENTOS INICIAIS =========================
 document.getElementById("clearButton").addEventListener("click", clearSelections);
-
-document.getElementById("applyPresetButton").addEventListener("click", () => {
-  const select = document.getElementById("presetSelect");
-  const presetName = select.value;
-  if (presetName) {
-    applyPreset(presetName);
-  }
-});
 
 // Render inicial
 renderAll();
