@@ -1,0 +1,2355 @@
+{
+  "schema": "ror2-build-planner.items.v1",
+  "generatedFrom": "https://riskofrain2.fandom.com/wiki/Items",
+  "types": {
+    "w": "Common",
+    "g": "Uncommon",
+    "r": "Legendary",
+    "y": "Boss",
+    "b": "Lunar",
+    "p": "Void",
+    "o": "Equipment",
+    "s": "Sybilline",
+    "l": "Lunar Equip",
+    "e": "Elite Equip"
+  },
+  "items": [
+    {
+      "id": "armor_piercing_rounds",
+      "name": "Armor-Piercing Rounds",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/armor_piercing_rounds.webp",
+      "stack_type": "Linear",
+      "desc": "Deal an additional <yellow>20%</yellow> damage <gray>(+20% per stack)</gray> to bosses."
+    },
+    {
+      "id": "backup_magazine",
+      "name": "Backup Magazine",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/backup_magazine.webp",
+      "stack_type": "Linear",
+      "desc": "Add <blue>+1</blue> <gray>(+1 per stack)</gray> charge of your <blue>Secondary skill</blue>."
+    },
+    {
+      "id": "bison_steak",
+      "name": "Bison Steak",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/bison_steak.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <green>maximum health</green> by <green>25</green> <gray>(+25 per stack)</gray>."
+    },
+    {
+      "id": "bolstering_lantern",
+      "name": "Bolstering Lantern",
+      "type": "w",
+      "dlc": "sots",
+      "icon": "icons/bolstering_lantern.webp",
+      "stack_type": "Linear",
+      "desc": "Increase your <yellow>attack speed</yellow> by <yellow>10%</yellow> <gray>(+3.5% per stack)</gray> for up to <blue>3</blue> <gray>(+1 per stack)</gray> enemies and allies within <blue>20</blue> meters."
+    },
+    {
+      "id": "bundle_of_fireworks",
+      "name": "Bundle of Fireworks",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/bundle_of_fireworks.webp",
+      "stack_type": "Linear",
+      "desc": "Activating an interactable <yellow>launches 8 fireworks</yellow> <gray>(+4 per stack)</gray> that deal <yellow>300%</yellow> base damage."
+    },
+    {
+      "id": "bustling_fungus",
+      "name": "Bustling Fungus",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/bustling_fungus.webp",
+      "stack_type": "Linear",
+      "desc": "After standing still for <green>1</green> second, create a zone that <green>heals</green> for <green>4.5%</green> <gray>(+2.25% per stack)</gray> of your <green>health</green> every second to all allies within <green>3m</green> <gray>(+1.5m per stack)</gray>."
+    },
+    {
+      "id": "cautious_slug",
+      "name": "Cautious Slug",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/cautious_slug.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <green>base health</green> regeneration by <green>+3 hp/s</green> <gray>(+3 hp/s per stack)</gray> while outside of combat."
+    },
+    {
+      "id": "chronic_expansion",
+      "name": "Chronic Expansion",
+      "type": "w",
+      "dlc": "sots",
+      "icon": "icons/chronic_expansion.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an enemy increase your damage by <yellow>3.5</yellow> <gray>(+1% per stack)</gray>, up to <blue>10</blue> <gray>(+5 per stack)</gray>, for <blue>7s</blue>. Dealing damage refreshes the timer."
+    },
+    {
+      "id": "crowbar",
+      "name": "Crowbar",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/crowbar.webp",
+      "stack_type": "Linear",
+      "desc": "Deal <yellow>+75%</yellow> <gray>(+75% per stack)</gray> damage to enemies above <yellow>90% health</yellow>."
+    },
+    {
+      "id": "delicate_watch",
+      "name": "Delicate Watch",
+      "type": "w",
+      "dlc": "sotv",
+      "icon": "icons/delicate_watch.webp",
+      "stack_type": "Linear",
+      "desc": "Increase damage by <yellow>20%</yellow> <gray>(+20% per stack)</gray>. Taking damage to below <red>25% health</red> <blue>breaks</blue> this item."
+    },
+    {
+      "id": "eclipse_lite",
+      "name": "Eclipse Lite",
+      "type": "w",
+      "dlc": "alloyedcollective",
+      "icon": "icons/eclipse_lite.webp",
+      "stack_type": "Linear",
+      "desc": "When a skill comes off cooldown, gain a <yellow>temporary barrier</yellow> for <green>1%</green> <gray>(+0.25% per stack)</gray> of your maximum health per second of the skill's base cooldown."
+    },
+    {
+      "id": "elusive_antlers",
+      "name": "Elusive Antlers",
+      "type": "w",
+      "dlc": "sots",
+      "icon": "icons/elusive_antlers.webp",
+      "stack_type": "HyperbolicLinear",
+      "desc": "Spawns orbs of energy nearby every <blue>10s</blue> <gray>(-10% per stack)</gray>, giving <blue>+12% movement speed</blue> up to <blue>3</blue> <gray>(+3 per stack)</gray> times for <blue>12s</blue>."
+    },
+    {
+      "id": "energy_drink",
+      "name": "Energy Drink",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/energy_drink.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Sprint speed</blue> is improved by <blue>25%</blue> <gray>(+25% per stack)</gray>."
+    },
+    {
+      "id": "focus_crystal",
+      "name": "Focus Crystal",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/focus_crystal.webp",
+      "stack_type": "Linear",
+      "desc": "Increase damage to enemies within <yellow>13m</yellow> by <yellow>20%</yellow> <gray>(+20% per stack)</gray>."
+    },
+    {
+      "id": "gasoline",
+      "name": "Gasoline",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/gasoline.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an enemy <yellow>ignites</yellow> all enemies within <yellow>12m</yellow> <gray>(+4m per stack)</gray> for <yellow>150%</yellow> base damage. Additionally, enemies <yellow>burn</yellow> for <yellow>150%</yellow> <gray>(+75% per stack)</gray> base damage."
+    },
+    {
+      "id": "hiker_s_boots",
+      "name": "Hiker's Boots",
+      "type": "w",
+      "dlc": "alloyedcollective",
+      "icon": "icons/hiker_s_boots.webp",
+      "stack_type": "Linear",
+      "desc": "Striking enemies from a higher elevation grants <yellow>+1%</yellow> <gray>(+1% per stack)</gray> <yellow>critical strike chance</yellow> and <yellow>critical strike damage</yellow>, up to <blue>10 times</blue>. Lasts 10 seconds."
+    },
+    {
+      "id": "item_scrap_white",
+      "name": "Item Scrap, White",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/item_scrap_white.webp",
+      "stack_type": "-",
+      "desc": "Does nothing. Prioritized when used with 3D Printers."
+    },
+    {
+      "id": "lens_maker_s_glasses",
+      "name": "Lens-Maker's Glasses",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/lens_maker_s_glasses.webp",
+      "stack_type": "Linear",
+      "desc": "Your attacks have a <yellow>10%</yellow> <gray>(+10% per stack)</gray> chance to '<yellow>Critically Strike</yellow>', dealing <yellow>double damage</yellow>."
+    },
+    {
+      "id": "medkit",
+      "name": "Medkit",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/medkit.webp",
+      "stack_type": "Linear",
+      "desc": "2 seconds after getting hurt, <green>heal</green> for <green>20</green> plus an additional <green>5%</green> <gray>(+5% per stack)</gray> of <green>maximum health</green>."
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "type": "w",
+      "dlc": "sotv",
+      "icon": "icons/mocha.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <yellow>attack speed</yellow> by <yellow>7.5%</yellow> <gray>(+7.5 per stack)</gray> and <blue>movement speed</blue> by <blue>7%</blue> <gray>(+7% per stack)</gray>."
+    },
+    {
+      "id": "monster_tooth",
+      "name": "Monster Tooth",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/monster_tooth.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an enemy spawns a <green>healing orb</green> that heals for <green>8</green> plus an additional <green>2%</green> <gray>(+2% per stack)</gray> of <green>maximum health</green>."
+    },
+    {
+      "id": "oddly_shaped_opal",
+      "name": "Oddly-shaped Opal",
+      "type": "w",
+      "dlc": "sotv",
+      "icon": "icons/oddly_shaped_opal.webp",
+      "stack_type": "Linear",
+      "desc": "<green>Increase armor</green> by <green>100</green> <gray>(+100 per stack)</gray> while out of danger."
+    },
+    {
+      "id": "paul_s_goat_hoof",
+      "name": "Paul's Goat Hoof",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/paul_s_goat_hoof.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <blue>movement speed</blue> by <blue>14%</blue> <gray>(+14% per stack)</gray>."
+    },
+    {
+      "id": "personal_shield_generator",
+      "name": "Personal Shield Generator",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/personal_shield_generator.webp",
+      "stack_type": "Linear",
+      "desc": "Gain a <green>shield</green> equal to <green>8%</green> <gray>(+8% per stack)</gray> of your maximum health. Recharges outside of danger."
+    },
+    {
+      "id": "power_elixir",
+      "name": "Power Elixir",
+      "type": "w",
+      "dlc": "sotv",
+      "icon": "icons/power_elixir.webp",
+      "stack_type": "-",
+      "desc": "Taking damage to below <red>25% health</red> <blue>consumes</blue> this item, <green>healing</green> you for <green>75%</green> of <green>maximum health</green>."
+    },
+    {
+      "id": "repulsion_armor_plate",
+      "name": "Repulsion Armor Plate",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/repulsion_armor_plate.webp",
+      "stack_type": "Linear",
+      "desc": "Reduce all <yellow>incoming damage</yellow> by <yellow>5</yellow> <gray>(+5 per stack)</gray>. Cannot be reduced below <yellow>1</yellow>."
+    },
+    {
+      "id": "roll_of_pennies",
+      "name": "Roll of Pennies",
+      "type": "w",
+      "dlc": "sotv",
+      "icon": "icons/roll_of_pennies.webp",
+      "stack_type": "Linear",
+      "desc": "Gain <blue>3</blue> <gray>(+3 per stack)</gray> <blue>gold</blue> on <yellow>taking damage</yellow> from an enemy. <blue>Scales over time.</blue>"
+    },
+    {
+      "id": "rusted_key",
+      "name": "Rusted Key",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/rusted_key.webp",
+      "stack_type": "-",
+      "desc": "A <blue>hidden cache</blue> containing an item (<green>80%</green>/<red>20%</red>) will appear in a random location <blue>on each stage</blue>. Opening the cache <blue>consumes</blue> this item."
+    },
+    {
+      "id": "soldier_s_syringe",
+      "name": "Soldier's Syringe",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/soldier_s_syringe.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <yellow>attack speed</yellow> by <yellow>15%</yellow> <gray>(+15% per stack)</gray>."
+    },
+    {
+      "id": "sticky_bomb",
+      "name": "Sticky Bomb",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/sticky_bomb.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>5%</yellow> <gray>(+5% per stack)</gray> chance on hit to attach a <yellow>bomb</yellow> to an enemy, detonating for <yellow>180%</yellow> TOTAL damage."
+    },
+    {
+      "id": "stun_grenade",
+      "name": "Stun Grenade",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/stun_grenade.webp",
+      "stack_type": "Hyperbolic",
+      "desc": "<blue>5%</blue> <gray>(+5% on stack)</gray> chance on hit to <blue>stun</blue> enemies for <blue>2 seconds</blue>."
+    },
+    {
+      "id": "topaz_brooch",
+      "name": "Topaz Brooch",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/topaz_brooch.webp",
+      "stack_type": "Linear",
+      "desc": "Gain a <green>temporary barrier</green> on kill for <green>15 health</green> <gray>(+15 per stack)</gray>."
+    },
+    {
+      "id": "tougher_times",
+      "name": "Tougher Times",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/tougher_times.webp",
+      "stack_type": "Hyperbolic",
+      "desc": "<green>15%</green> <gray>(+15% per stack)</gray> chance to <green>block</green> incoming damage. <blue>Unaffected by luck</blue>."
+    },
+    {
+      "id": "tri_tip_dagger",
+      "name": "Tri-Tip Dagger",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/tri_tip_dagger.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>10%</yellow> <gray>(+10% per stack)</gray> chance to <yellow>bleed</yellow> an enemy for <yellow>240%</yellow> base damage."
+    },
+    {
+      "id": "warbanner",
+      "name": "Warbanner",
+      "type": "w",
+      "dlc": null,
+      "icon": "icons/warbanner.webp",
+      "stack_type": "Linear",
+      "desc": "On <blue>level up</blue> or starting the <blue>Teleporter event</blue>, drop a banner that strengthens all allies within <blue>16m</blue> <gray>(+8m per stack)</gray>. Raise <yellow>attack</yellow> and <blue>movement speed</blue> by <yellow>30%</yellow>."
+    },
+    {
+      "id": "warped_echo",
+      "name": "Warped Echo",
+      "type": "w",
+      "dlc": "sots",
+      "icon": "icons/warped_echo.webp",
+      "stack_type": "Linear",
+      "desc": "The next source of damage is <green>reduced</green> by <green>20%</green> and <green>spread</green> into <blue>3</blue> <gray>(+1 per stack)</gray> <blue>hits</blue>. All echoed damage is <blue>non-lethal</blue> except for the final hit. Recharges every <blue>15s</blue>."
+    },
+    {
+      "id": "atg_missile_mk_1",
+      "name": "AtG Missile Mk. 1",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/atg_missile_mk_1.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>10%</yellow> chance to fire a missile that deals <yellow>300%</yellow> <gray>(+300% per stack)</gray> TOTAL damage."
+    },
+    {
+      "id": "bandolier",
+      "name": "Bandolier",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/bandolier.webp",
+      "stack_type": "Special",
+      "desc": "<blue>18%</blue> <gray>(+10% per stack)</gray> chance on kill to drop an ammo pack that <blue>resets all skill cooldowns</blue>."
+    },
+    {
+      "id": "berzerker_s_pauldron",
+      "name": "Berzerker's Pauldron",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/berzerker_s_pauldron.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>Killing 4 enemies</yellow> within <yellow>1</yellow> second sends you into a <yellow>frenzy</yellow> for <yellow>6s</yellow> <gray>(+4s per stack)</gray>. Increases <blue>movement speed</blue> by <blue>50%</blue> and <yellow>attack speed</yellow> by <yellow>100%</yellow>."
+    },
+    {
+      "id": "box_of_dynamite",
+      "name": "Box of Dynamite",
+      "type": "g",
+      "dlc": "alloyedcollective",
+      "icon": "icons/box_of_dynamite.webp",
+      "stack_type": "Linear",
+      "desc": "Gain <yellow>Lt. Droneboy.</yellow> While in combat, your drones drop sticks of dynamite that detonate for <yellow>240%</yellow> damage <gray>(+85% per stack)</gray>, stunning enemies. Recharges after <blue>10</blue> seconds."
+    },
+    {
+      "id": "breaching_fin",
+      "name": "Breaching Fin",
+      "type": "g",
+      "dlc": "sots",
+      "icon": "icons/breaching_fin.webp",
+      "stack_type": "Linear",
+      "desc": "Grounded enemies hit with any <blue>skill</blue> are <blue>launched</blue> and <blue>stunned</blue>. Enemies hit while airborne are <blue>launched</blue> again up to <blue>2 times</blue> <gray>(+1 per stack)</gray>. Launched enemies take increased damage by <yellow>10%</yellow> from all sources per launch. Recharges after <blue>15s</blue>."
+    },
+    {
+      "id": "chance_doll",
+      "name": "Chance Doll",
+      "type": "g",
+      "dlc": "sots",
+      "icon": "icons/chance_doll.webp",
+      "stack_type": "Linear",
+      "desc": "On Shrine of Chance success, <blue>40%</blue> <gray> (+10% per stack)</gray> chance to get higher rarity items."
+    },
+    {
+      "id": "chronobauble",
+      "name": "Chronobauble",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/chronobauble.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Slow</blue> enemies on hit for <blue>-60% movement speed</blue> for <blue>2s</blue> <gray>(+2s per stack)</gray>."
+    },
+    {
+      "id": "collector_s_compulsion",
+      "name": "Collector's Compulsion",
+      "type": "g",
+      "dlc": "alloyedcollective",
+      "icon": "icons/collector_s_compulsion.webp",
+      "stack_type": "Linear",
+      "desc": "Picking up <yellow>an item or other collectible</yellow> increases <blue>all stats</blue> by <blue>+3% for 20 seconds, up to 3</blue> <gray>(+2 per stack)</gray> <blue>times</blue>. Barrels grant minor pickups."
+    },
+    {
+      "id": "death_mark",
+      "name": "Death Mark",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/death_mark.webp",
+      "stack_type": "Linear",
+      "desc": "Enemies with <yellow>4</yellow> or more debuffs are <yellow>marked for death</yellow>, increasing damage taken by <yellow>50%</yellow> from all sources for <blue>7</blue> <gray>(+7 per stack)</gray> seconds."
+    },
+    {
+      "id": "faraday_spur",
+      "name": "Faraday Spur",
+      "type": "g",
+      "dlc": "alloyedcollective",
+      "icon": "icons/faraday_spur.webp",
+      "stack_type": "Linear",
+      "desc": "Moving around builds up <blue>charge</blue>, granting up to <blue>+160% movement speed</blue> and <blue>+200% jump height</blue> at 100%. At 25% charge or higher, jumping triggers an <yellow>explosive discharge</yellow> for <yellow>400%</yellow> (+280% per stack) <yellow>damage</yellow> in a 5m to 32.3m <gray>(+7.5m per stack)</gray> area."
+    },
+    {
+      "id": "fuel_cell",
+      "name": "Fuel Cell",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/fuel_cell.webp",
+      "stack_type": "LinearExponential",
+      "desc": "Hold an <blue>additional equipment charge</blue> <gray>(+1 per stack)</gray>. <blue>Reduce equipment cooldown</blue> by <blue>15%</blue> <gray>(+15% per stack)</gray>."
+    },
+    {
+      "id": "ghor_s_tome",
+      "name": "Ghor's Tome",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/ghor_s_tome.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>4%</blue> <gray>(+4% on stack)</gray> chance on kill to drop a treasure worth <blue>$25</blue>. <blue>Scales over time.</blue>"
+    },
+    {
+      "id": "harvester_s_scythe",
+      "name": "Harvester's Scythe",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/harvester_s_scythe.webp",
+      "stack_type": "LinearNone",
+      "desc": "Gain <yellow>5% critical chance</yellow>. <yellow>Critical strikes</yellow> <green>heal</green> for <green>8</green> <gray>(+4 per stack)</gray> <green>health</green>."
+    },
+    {
+      "id": "hopoo_feather",
+      "name": "Hopoo Feather",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/hopoo_feather.webp",
+      "stack_type": "Linear",
+      "desc": "Gain <blue>+1</blue> <gray>(+1 per stack)</gray> maximum <blue>jump count</blue>."
+    },
+    {
+      "id": "hunter_s_harpoon",
+      "name": "Hunter's Harpoon",
+      "type": "g",
+      "dlc": "sotv",
+      "icon": "icons/hunter_s_harpoon.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an enemy increases <blue>movement speed</blue> by <blue>125%</blue>, fading over <blue>1</blue> <gray>(+0.5 per stack)</gray> seconds."
+    },
+    {
+      "id": "ignition_tank",
+      "name": "Ignition Tank",
+      "type": "g",
+      "dlc": "sotv",
+      "icon": "icons/ignition_tank.webp",
+      "stack_type": "Linear",
+      "desc": "Ignite effects deal <yellow>+300%</yellow> <gray>(+300% per stack)</gray> more damage over time."
+    },
+    {
+      "id": "infusion",
+      "name": "Infusion",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/infusion.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an enemy increases your <green>health permanently</green> by <green>1</green> <gray>(+1 per stack)</gray>, up to a <green>maximum</green> of <green>100</green> <gray>(+100 per stack)</gray> <green>health.</green>"
+    },
+    {
+      "id": "item_scrap_green",
+      "name": "Item Scrap, Green",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/item_scrap_green.webp",
+      "stack_type": "-",
+      "desc": "Does nothing. Prioritized when used with 3D Printers."
+    },
+    {
+      "id": "kinetic_dampener",
+      "name": "Kinetic Dampener",
+      "type": "g",
+      "dlc": "alloyedcollective",
+      "icon": "icons/kinetic_dampener.webp",
+      "stack_type": "Linear",
+      "desc": "Increases armor by <blue>30</blue> <gray>(+30 per stack)</gray> while you have a shield. When shield breaks, release a stunning pulse for <yellow>100% damage</yellow> plus an amount <yellow>equal to 100%</yellow> <gray>(+10% per stack)</gray> <yellow>of your max shield</yellow>. Grants a shield for <green>4% of your max health.</green>"
+    },
+    {
+      "id": "kjaro_s_band",
+      "name": "Kjaro's Band",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/kjaro_s_band.webp",
+      "stack_type": "Linear",
+      "desc": "Hits that deal <yellow>more than 400% damage</yellow> also blasts enemies with a <yellow>runic flame tornado</yellow>, dealing <yellow>300%</yellow> <gray>(+300% per stack)</gray> TOTAL damage over time. Recharges every <blue>10</blue> seconds."
+    },
+    {
+      "id": "leeching_seed",
+      "name": "Leeching Seed",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/leeching_seed.webp",
+      "stack_type": "Linear",
+      "desc": "Dealing damage <green>heals</green> you for <green>1</green> <gray>(+1 per stack)</gray> <green>health.</green>"
+    },
+    {
+      "id": "lepton_daisy",
+      "name": "Lepton Daisy",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/lepton_daisy.webp",
+      "stack_type": "Linear",
+      "desc": "Release a <green>healing nova</green> during the Teleporter event, <green>healing</green> all nearby allies for <green>50%</green> of their maximum health. Occurs <green>1</green> <gray>(+1 per stack)</gray> times."
+    },
+    {
+      "id": "luminous_shot",
+      "name": "Luminous Shot",
+      "type": "g",
+      "dlc": "sots",
+      "icon": "icons/luminous_shot.webp",
+      "stack_type": "Linear",
+      "desc": "Activating <blue>Secondary skill</blue> stores up to <blue>5 charges</blue> (+1 per stack). Requires <blue>3 charges</blue> for your <blue>Primary skill</blue> to fire lightning strikes, dealing <yellow>175% TOTAL damage</yellow> <gray>(+50% per stack)</gray> each. <blue>Reduces Secondary skill cooldown by 20%.</blue>"
+    },
+    {
+      "id": "noxious_thorn",
+      "name": "Noxious Thorn",
+      "type": "g",
+      "dlc": "sots",
+      "icon": "icons/noxious_thorn.webp",
+      "stack_type": "Linear",
+      "desc": "Gain <yellow>10%</yellow> chance to <yellow>bleed</yellow> an enemy. On killing an enemy, <yellow>transfer 33%</yellow> of every debuff stack to <yellow>1 enemy</yellow> <gray>(+1 per stack)</gray> within 20m <gray>(+5m per stack).</gray>"
+    },
+    {
+      "id": "old_guillotine",
+      "name": "Old Guillotine",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/old_guillotine.webp",
+      "stack_type": "Hyperbolic",
+      "desc": "Instantly kill Elite monsters below <red>13%</red> <gray>(+13% per stack)</gray> <red>health.</red>"
+    },
+    {
+      "id": "old_war_stealthkit",
+      "name": "Old War Stealthkit",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/old_war_stealthkit.webp",
+      "stack_type": "Exponential",
+      "desc": "Falling below <red>25% health</red> causes you to gain <blue>40% movement speed</blue> and <blue>invisibility</blue> for <blue>5s</blue>. Recharges every <blue>30 seconds</blue> <gray>(-50% per stack)</gray>."
+    },
+    {
+      "id": "prayer_beads",
+      "name": "Prayer Beads",
+      "type": "g",
+      "dlc": "sots",
+      "icon": "icons/prayer_beads.webp",
+      "stack_type": "Linear",
+      "desc": "Grows by gaining experience, storing <blue>20%</blue> <gray>(+5% per item stack)</gray> bonus stats (<green>health</green>, <green>regeneration</green>, and <yellow>damage</yellow>). On removal, gain all stored stats."
+    },
+    {
+      "id": "predatory_instincts",
+      "name": "Predatory Instincts",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/predatory_instincts.webp",
+      "stack_type": "LinearNone",
+      "desc": "Gain <yellow>5% critical chance</yellow>. <yellow>Critical strikes</yellow> increase <yellow>attack speed</yellow> by <yellow>12%</yellow>. Maximum cap of <yellow>36%</yellow> <gray>(+24% per stack)</gray> <yellow>attack speed.</yellow>"
+    },
+    {
+      "id": "razorwire",
+      "name": "Razorwire",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/razorwire.webp",
+      "stack_type": "Linear",
+      "desc": "Getting hit causes you to explode in a burst of razors, dealing <yellow>160% damage</yellow>. Hits up to <yellow>5</yellow> <gray>(+2 per stack)</gray> targets in a <yellow>25m</yellow> <gray>(+10m per stack)</gray> radius"
+    },
+    {
+      "id": "red_whip",
+      "name": "Red Whip",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/red_whip.webp",
+      "stack_type": "Linear",
+      "desc": "Leaving combat boosts your <blue>movement speed</blue> by <blue>30%</blue> <gray>(+30% per stack)</gray>."
+    },
+    {
+      "id": "regenerating_scrap",
+      "name": "Regenerating Scrap",
+      "type": "g",
+      "dlc": "sotv",
+      "icon": "icons/regenerating_scrap.webp",
+      "stack_type": "-",
+      "desc": "Does nothing. Prioritized when used with <green>Uncommon</green> 3D Printers. At the start of each stage, it regenerates."
+    },
+    {
+      "id": "rose_buckler",
+      "name": "Rose Buckler",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/rose_buckler.webp",
+      "stack_type": "Linear",
+      "desc": "<green>Increase armor</green> by <green>30</green> <gray>(+30 per stack)</gray> <blue>while sprinting</blue>."
+    },
+    {
+      "id": "runald_s_band",
+      "name": "Runald's Band",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/runald_s_band.webp",
+      "stack_type": "Linear",
+      "desc": "Hits that deal <yellow>more than 400% damage</yellow> also blasts enemies with a <yellow>runic ice blast</yellow>, <blue>slowing</blue> them by <blue>80%</blue> for <blue>3s</blue> <gray>(+3s per stack)</gray> and dealing <yellow>250%</yellow> <gray>(+250% per stack)</gray> TOTAL damage. Recharges every <blue>10</blue> seconds."
+    },
+    {
+      "id": "sale_star",
+      "name": "Sale Star",
+      "type": "g",
+      "dlc": "sots",
+      "icon": "icons/sale_star.webp",
+      "stack_type": "Linear",
+      "desc": "Gain an extra item on the first chest opened per stage. \n Each additional Sale Star increases the chance of getting more items by 5%."
+    },
+    {
+      "id": "shipping_request_form",
+      "name": "Shipping Request Form",
+      "type": "g",
+      "dlc": "sotv",
+      "icon": "icons/shipping_request_form.webp",
+      "stack_type": "Special",
+      "desc": "A <blue>delivery</blue> containing 2 items (79%/<green>20%</green>/<red>1%</red>) will appear in a random location <blue>on each stage</blue>. <gray>(Increases rarity chances of the items per stack).</gray>"
+    },
+    {
+      "id": "shuriken",
+      "name": "Shuriken",
+      "type": "g",
+      "dlc": "sotv",
+      "icon": "icons/shuriken.webp",
+      "stack_type": "Linear",
+      "desc": "Activating your <blue>Primary skill</blue> also throws a <yellow>shuriken</yellow> that deals <yellow>400%</yellow> <gray>(+100% per stack)</gray> base damage. You can hold up to <blue>3</blue> <gray>(+1 per stack)</gray> <yellow>shurikens</yellow> which all reload over <blue>10</blue> seconds."
+    },
+    {
+      "id": "squid_polyp",
+      "name": "Squid Polyp",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/squid_polyp.webp",
+      "stack_type": "Linear",
+      "desc": "Activating an interactable summons a <yellow>Squid Turret</yellow> that attacks nearby enemies at <yellow>100%</yellow> <gray>(+100% per stack)</gray> <yellow>attack speed</yellow>. Lasts <blue>30</blue> seconds."
+    },
+    {
+      "id": "ukulele",
+      "name": "Ukulele",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/ukulele.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>25%</yellow> chance to fire <yellow>chain lightning</yellow> for <yellow>80%</yellow> TOTAL damage on up to <yellow>3</yellow> <gray>(+2 per stack)</gray> targets within <yellow>20m</yellow> <gray>(+2m per stack)</gray>."
+    },
+    {
+      "id": "unstable_transmitter",
+      "name": "Unstable Transmitter",
+      "type": "g",
+      "dlc": "sots",
+      "icon": "icons/unstable_transmitter.webp",
+      "stack_type": "Linear",
+      "desc": "Falling below <red>25% health</red> gives you <green>temporary barrier</green> and a dimensional aura that <yellow>bleeds</yellow> and <blue>teleports</blue> away enemies for <blue>8s</blue>. <yellow>Enemies killed</yellow> by the aura <blue>extend</blue> the duration by 1s. At the start of each stage, it regenerates"
+    },
+    {
+      "id": "war_horn",
+      "name": "War Horn",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/war_horn.webp",
+      "stack_type": "Linear",
+      "desc": "Activating your Equipment gives you <yellow>+70% attack speed</yellow> for <yellow>8s</yellow> <gray>(+4s per stack)</gray>."
+    },
+    {
+      "id": "wax_quail",
+      "name": "Wax Quail",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/wax_quail.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Jumping</blue> while <blue>sprinting</blue> boosts you forward by <blue>10m</blue> <gray>(+10m per stack)</gray>."
+    },
+    {
+      "id": "will_o_the_wisp",
+      "name": "Will-o'-the-wisp",
+      "type": "g",
+      "dlc": null,
+      "icon": "icons/will_o_the_wisp.webp",
+      "stack_type": "Linear",
+      "desc": "On killing an enemy, spawn a <yellow>lava pillar</yellow> in a <yellow>12m</yellow> <gray>(+2.4m per stack)</gray> radius for <yellow>350%</yellow> <gray>(+280% per stack)</gray> base damage."
+    },
+    {
+      "id": "57_leaf_clover",
+      "name": "57 Leaf Clover",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/57_leaf_clover.webp",
+      "stack_type": "Linear",
+      "desc": "All random effects are rolled <blue>+1</blue> <gray>(+1 per stack)</gray> times for a <blue>favorable outcome</blue>."
+    },
+    {
+      "id": "aegis",
+      "name": "Aegis",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/aegis.webp",
+      "stack_type": "Linear",
+      "desc": "Healing past full grants you a <green>temporary barrier</green> for <green>50%</green> <gray>(+50% per stack)</gray> of the amount you <green>healed</green>."
+    },
+    {
+      "id": "alien_head",
+      "name": "Alien Head",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/alien_head.webp",
+      "stack_type": "Exponential",
+      "desc": "<blue>Reduce skill cooldowns</blue> by <blue>25%</blue> <gray>(+25% per stack)</gray>."
+    },
+    {
+      "id": "ben_s_raincoat",
+      "name": "Ben's Raincoat",
+      "type": "r",
+      "dlc": "sotv",
+      "icon": "icons/ben_s_raincoat.webp",
+      "stack_type": "LinearNone",
+      "desc": "Prevents <blue>1</blue> <gray>(+1 per stack)</gray> <yellow>debuff</yellow> and instead grants a <green>temporary barrier</green> for <green>10%</green> of <green>maximum health</green>. Recharges every <blue>5</blue> seconds."
+    },
+    {
+      "id": "bottled_chaos",
+      "name": "Bottled Chaos",
+      "type": "r",
+      "dlc": "sotv",
+      "icon": "icons/bottled_chaos.webp",
+      "stack_type": "Linear",
+      "desc": "Trigger a <yellow>random equipment</yellow> effect <yellow>1</yellow> <gray>(+1 per stack)</gray> time(s)."
+    },
+    {
+      "id": "brainstalks",
+      "name": "Brainstalks",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/brainstalks.webp",
+      "stack_type": "Linear",
+      "desc": "Upon killing an elite monster, <yellow>enter a frenzy</yellow> for <yellow>4s</yellow> <gray>(+4s per stack)</gray> where <blue>skills have 0.5s cooldowns</blue>."
+    },
+    {
+      "id": "brilliant_behemoth",
+      "name": "Brilliant Behemoth",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/brilliant_behemoth.webp",
+      "stack_type": "Linear",
+      "desc": "All your <yellow>attacks explode</yellow> in a <yellow>4m</yellow> <gray>(+2.5m per stack)</gray> radius for a bonus <yellow>60%</yellow> TOTAL damage to nearby enemies."
+    },
+    {
+      "id": "ceremonial_dagger",
+      "name": "Ceremonial Dagger",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/ceremonial_dagger.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an enemy fires out <yellow>3</yellow> <yellow>homing daggers</yellow> that deal <yellow>150%</yellow> <gray>(+150% per stack)</gray> base damage."
+    },
+    {
+      "id": "defensive_microbots",
+      "name": "Defensive Microbots",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/defensive_microbots.webp",
+      "stack_type": "Linear",
+      "desc": "Shoot down <yellow>1</yellow> <gray>(+1 per stack)</gray> projectiles within <yellow>20m</yellow> every <yellow>0.5 seconds</yellow>. <blue>Recharge rate scales with attack speed</blue>."
+    },
+    {
+      "id": "dio_s_best_friend",
+      "name": "Dio's Best Friend",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/dio_s_best_friend.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Upon death</blue>, this item will be <blue>consumed</blue> and you will <green>return to life</green> with <green>3 seconds of invulnerability</green>."
+    },
+    {
+      "id": "electric_boomerang",
+      "name": "Electric Boomerang",
+      "type": "r",
+      "dlc": "sots",
+      "icon": "icons/electric_boomerang.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>15%</yellow> chance on hit to fire an electric boomerang that slices through enemies dealing <yellow>120% base damage</yellow> <gray>(+120% per stack)</gray> and deals an additional <yellow>120% base damage per second</yellow> and <yellow>stuns</yellow> all enemies hit. Can <yellow>strike</yellow> enemies on the way back."
+    },
+    {
+      "id": "frost_relic",
+      "name": "Frost Relic",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/frost_relic.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an enemy surrounds you with an <yellow>ice storm</yellow> that deals <yellow>1200% damage</yellow> per second and <blue>slows</blue> enemies by <blue>80%</blue> for <blue>1.5s</blue>. The storm <yellow>grows with every kill</yellow>, increasing its radius by <yellow>2m</yellow>. Stacks up to <yellow>18m</yellow> <gray>(+12m per stack)</gray>."
+    },
+    {
+      "id": "growth_nectar",
+      "name": "Growth Nectar",
+      "type": "r",
+      "dlc": "sots",
+      "icon": "icons/growth_nectar.webp",
+      "stack_type": "Linear",
+      "desc": "Grants 4% increase to <blue>ALL stats</blue> for each buff, up to a maximum of <blue>4</blue> <gray>(+4 per stack).</gray>"
+    },
+    {
+      "id": "h3ad_5t_v2",
+      "name": "H3AD-5T v2",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/h3ad_5t_v2.webp",
+      "stack_type": "Exponential",
+      "desc": "Increase <blue>jump height</blue>. Creates a <yellow>5m-100m</yellow> radius <yellow>kinetic explosion</yellow> on hitting the ground, dealing <yellow>1000%-10000%</yellow> base damage that scales up with <yellow>fall distance</yellow>. Recharges in <yellow>10</yellow> <gray>(-50% per stack)</gray> seconds."
+    },
+    {
+      "id": "happiest_mask",
+      "name": "Happiest Mask",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/happiest_mask.webp",
+      "stack_type": "Linear",
+      "desc": "Killing enemies has a <yellow>7%</yellow> chance to <yellow>spawn a ghost</yellow> of the killed enemy with <yellow>1500%</yellow> damage. Lasts <yellow>30s</yellow> <gray>(+30s per stack)</gray>."
+    },
+    {
+      "id": "hardlight_afterburner",
+      "name": "Hardlight Afterburner",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/hardlight_afterburner.webp",
+      "stack_type": "Linear",
+      "desc": "Add <blue>+2</blue> <gray>(+2 per stack)</gray> charges of your <blue>Utility skill</blue>. <blue>Reduces Utility skill cooldown</blue> by <blue>33%</blue>."
+    },
+    {
+      "id": "interstellar_desk_plant",
+      "name": "Interstellar Desk Plant",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/interstellar_desk_plant.webp",
+      "stack_type": "Linear",
+      "desc": "On kill, plant a <green>healing</green> fruit seed that grows into a plant after <blue>5</blue> seconds.\n The plant <green>heals</green> for <green>5%</green> of <green>maximum health</green> every 0.5 second to all allies within <green>10m</green> <gray>(+5.0m per stack)</gray>. Lasts <blue>10</blue> seconds.\n"
+    },
+    {
+      "id": "item_scrap_red",
+      "name": "Item Scrap, Red",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/item_scrap_red.webp",
+      "stack_type": "-",
+      "desc": "Does nothing. Prioritized when used with 3D Printers."
+    },
+    {
+      "id": "laser_scope",
+      "name": "Laser Scope",
+      "type": "r",
+      "dlc": "sotv",
+      "icon": "icons/laser_scope.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>Critical Strikes</yellow> deal an additional <yellow>100% damage</yellow> <gray>(+100% per stack)</gray>."
+    },
+    {
+      "id": "n_kuhana_s_opinion",
+      "name": "N'kuhana's Opinion",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/n_kuhana_s_opinion.webp",
+      "stack_type": "Linear",
+      "desc": "Store <green>100%</green> <gray>(+100% per stack)</gray> of healing as <green>Soul Energy</green>. After your <green>Soul Energy</green> reaches <green>10%</green> of your <green>maximum health</green>, <yellow>fire a skull</yellow> that deals <yellow>250%</yellow> of your <green>Soul Energy</green> as <yellow>damage</yellow>."
+    },
+    {
+      "id": "networked_suffering",
+      "name": "Networked Suffering",
+      "type": "r",
+      "dlc": "alloyedcollective",
+      "icon": "icons/networked_suffering.webp",
+      "stack_type": "Linear",
+      "desc": "Infect up to <blue>4</blue> <gray>(+2 per stack)</gray> enemies with a computer virus that duplicates <yellow>50% of all damage taken</yellow> and sends it to a global damage pool. Every 3 seconds, ALL infected enemies suffer <yellow>100% pooled damage</yellow>."
+    },
+    {
+      "id": "orphaned_core",
+      "name": "Orphaned Core",
+      "type": "r",
+      "dlc": "alloyedcollective",
+      "icon": "icons/orphaned_core.webp",
+      "stack_type": "Linear",
+      "desc": "Gain a <green>friendly Solus unit</green> that launches itself at enemies for <yellow>400%</yellow> <gray>(+400% per stack)</gray> <yellow>damage</yellow>. The unit inherits your <blue>movement speed items</blue> and deals <yellow>more damage the faster it moves</yellow>. The unit can be pet to <blue>cleanse negative effects</blue>. Recharges after 15 seconds."
+    },
+    {
+      "id": "pocket_i_c_b_m",
+      "name": "Pocket I.C.B.M.",
+      "type": "r",
+      "dlc": "sotv",
+      "icon": "icons/pocket_i_c_b_m.webp",
+      "stack_type": "Linear",
+      "desc": "All missile items and equipment fire an additional <yellow>2</yellow> <yellow>missiles</yellow>. Increase missile damage by <yellow>0%</yellow> <gray>(+50% per stack)</gray>"
+    },
+    {
+      "id": "rejuvenation_rack",
+      "name": "Rejuvenation Rack",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/rejuvenation_rack.webp",
+      "stack_type": "Linear",
+      "desc": "<green>Heal +100%</green> <gray>(+100% per stack)</gray> more."
+    },
+    {
+      "id": "resonance_disc",
+      "name": "Resonance Disc",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/resonance_disc.webp",
+      "stack_type": "Linear",
+      "desc": "Killing <yellow>4</yellow> enemies in <blue>7 seconds</blue> charges the Resonance Disc. The disc launches itself toward a target for <yellow>300%</yellow> base damage <gray>(+300% per stack)</gray>, piercing all enemies it doesn't kill, and then explodes for <yellow>1000%</yellow> base damage <gray>(+1000% per stack)</gray>. Returns to the user, striking all enemies along the way for <yellow>300%</yellow> base damage <gray>(+300% per stack)</gray>."
+    },
+    {
+      "id": "runic_lens",
+      "name": "Runic Lens",
+      "type": "r",
+      "dlc": "sots",
+      "icon": "icons/runic_lens.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>3%</yellow> chance on hit to call a meteor strike, dealing <yellow>2000%</yellow> base damage. Every <yellow>100%</yellow> attack damage dealt increase the activation chance by <yellow>3%</yellow> <gray>(+3% per stack)</gray> and damage by <yellow>150%</yellow> <gray>(+50% per stack)</gray>."
+    },
+    {
+      "id": "sentient_meat_hook",
+      "name": "Sentient Meat Hook",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/sentient_meat_hook.webp",
+      "stack_type": "HyperbolicLinear",
+      "desc": "<yellow>20%</yellow> <gray>(+20% per stack)</gray> chance on hit to <yellow>fire homing hooks</yellow> at up to <yellow>10</yellow> <gray>(+5 per stack)</gray> enemies for <yellow>100%</yellow> TOTAL damage."
+    },
+    {
+      "id": "shattering_justice",
+      "name": "Shattering Justice",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/shattering_justice.webp",
+      "stack_type": "Linear",
+      "desc": "After hitting an enemy <yellow>5</yellow> times, reduce their <yellow>armor</yellow> by <yellow>60</yellow> for <yellow>8</yellow> <gray>(+8 per stack)</gray> seconds."
+    },
+    {
+      "id": "sonorous_whispers",
+      "name": "Sonorous Whispers",
+      "type": "r",
+      "dlc": "sots",
+      "icon": "icons/sonorous_whispers.webp",
+      "stack_type": "Linear",
+      "desc": "When a large monster is killed it will always drop an item. All elites have a <blue>4%</blue> chance of dropping an item <gray>(+1% per stack)</gray>."
+    },
+    {
+      "id": "soulbound_catalyst",
+      "name": "Soulbound Catalyst",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/soulbound_catalyst.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>Kills reduce</yellow> <blue>equipment cooldown</blue> by <blue>4s</blue> <gray>(+2s per stack)</gray>."
+    },
+    {
+      "id": "spare_drone_parts",
+      "name": "Spare Drone Parts",
+      "type": "r",
+      "dlc": "sotv",
+      "icon": "icons/spare_drone_parts.webp",
+      "stack_type": "Linear",
+      "desc": "Gain <yellow>Col. Droneman</yellow>. Drones gain <yellow>+50%</yellow> <gray>(+50% per stack)</gray> attack speed and cooldown reduction. Drones gain <yellow>10%</yellow> chance to fire a <yellow>missile</yellow> on hit, dealing <yellow>300%</yellow> TOTAL damage. Drones gain an <yellow>automatic chain gun</yellow> that deals <yellow>6x100%</yellow> damage, bouncing to <yellow>2</yellow> enemies."
+    },
+    {
+      "id": "substandard_duplicator",
+      "name": "Substandard Duplicator",
+      "type": "r",
+      "dlc": "alloyedcollective",
+      "icon": "icons/substandard_duplicator.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Picking up an item</blue> gives you a <gray>temporary copy</gray> of itself. Temporary items last an additional <yellow>10</yellow> <gray>(+10 per stack)</gray> <yellow>seconds</yellow>."
+    },
+    {
+      "id": "symbiotic_scorpion",
+      "name": "Symbiotic Scorpion",
+      "type": "r",
+      "dlc": "sotv",
+      "icon": "icons/symbiotic_scorpion.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>100%</yellow> chance on hit to reduce <yellow>armor</yellow> by <yellow>2</yellow> <gray>(+2 per stack)</gray> <yellow>permanently</yellow>."
+    },
+    {
+      "id": "unstable_tesla_coil",
+      "name": "Unstable Tesla Coil",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/unstable_tesla_coil.webp",
+      "stack_type": "Linear",
+      "desc": "Fire out <yellow>lightning</yellow> that hits <yellow>3</yellow> <gray>(+2 per stack)</gray> enemies for <yellow>200%</yellow> base damage every <yellow>0.5s</yellow>. The Tesla Coil switches off every <yellow>10 seconds</yellow>."
+    },
+    {
+      "id": "wake_of_vultures",
+      "name": "Wake of Vultures",
+      "type": "r",
+      "dlc": null,
+      "icon": "icons/wake_of_vultures.webp",
+      "stack_type": "Linear",
+      "desc": "Gain the <yellow>power</yellow> of any killed elite monster for <yellow>8s</yellow> <gray>(+5s per stack)</gray>."
+    },
+    {
+      "id": "war_bonds",
+      "name": "War Bonds",
+      "type": "r",
+      "dlc": "sots",
+      "icon": "icons/war_bonds.webp",
+      "stack_type": "Linear",
+      "desc": "During boss events, <blue>5</blue> missiles bombard the area, dealing <yellow>2.5%</yellow> <gray>(+2.5% per stack)</gray> <yellow>of boss' Max Health in damage</yellow>. Before the boss event, gain additional missiles, up to a maximum of <blue>20</blue> <gray>(+5 per stack)</gray>, per <blue>50</blue> gold gained. <blue>Gold requirement scales over time.</blue>"
+    },
+    {
+      "id": "artifact_key",
+      "name": "Artifact Key",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/artifact_key.webp",
+      "stack_type": "-",
+      "desc": "A stone shard with immense power."
+    },
+    {
+      "id": "charged_perforator",
+      "name": "Charged Perforator",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/charged_perforator.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>10%</yellow> chance on hit to down a lightning strike, dealing <yellow>500%</yellow> <gray>(+500% per stack)</gray> damage."
+    },
+    {
+      "id": "defense_nucleus",
+      "name": "Defense Nucleus",
+      "type": "y",
+      "dlc": "sotv",
+      "icon": "icons/defense_nucleus.webp",
+      "stack_type": "Linear",
+      "desc": "Killing elite monsters spawns an <yellow>Alpha Construct</yellow> with bonus <yellow>300%</yellow> damage and <green>300% health</green>. Limited to <blue>4</blue> <gray>(+4 per stack)</gray>."
+    },
+    {
+      "id": "empathy_cores",
+      "name": "Empathy Cores",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/empathy_cores.webp",
+      "stack_type": "-",
+      "desc": "Every 30 seconds, <blue>summon two Solus Probes</blue> that gain <yellow>+100%</yellow> <gray>(+100% per stack)</gray> damage per <blue>ally on your team</blue>."
+    },
+    {
+      "id": "faulty_conductor",
+      "name": "Faulty Conductor",
+      "type": "y",
+      "dlc": "alloyedcollective",
+      "icon": "icons/faulty_conductor.webp",
+      "stack_type": "Linear",
+      "desc": "Every <blue>15</blue> <gray>(-20% per stack)</gray> <blue>seconds</blue>, release a wave of electricity that <green>energizes</green> nearby allies for 7 seconds. Energized allies gain <yellow>+30% attack and movement speed</yellow>, and ALWAYS land <yellow>critical strikes</yellow> with <blue>electric</blue> items and attacks."
+    },
+    {
+      "id": "functional_coupler",
+      "name": "Functional Coupler",
+      "type": "y",
+      "dlc": "alloyedcollective",
+      "icon": "icons/functional_coupler.webp",
+      "stack_type": "Linear",
+      "desc": "Hold <blue>1 additional equipment</blue> <gray>(+1 per stack)</gray>. Press the <blue>interact</blue> and <blue>equipment</blue> buttons to cycle through held equipment."
+    },
+    {
+      "id": "genesis_loop",
+      "name": "Genesis Loop",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/genesis_loop.webp",
+      "stack_type": "Linear",
+      "desc": "Falling below <red>25% health</red> causes you to explode, dealing <yellow>6000% base damage</yellow>. Recharges every <blue>30 / (2</blue> <gray>+1 per stack</gray><blue>) seconds</blue>."
+    },
+    {
+      "id": "halcyon_seed",
+      "name": "Halcyon Seed",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/halcyon_seed.webp",
+      "stack_type": "Linear",
+      "desc": "Summon <yellow>Aurelionite</yellow> during the teleporter event. It has <yellow>100%</yellow> <gray>(+50% per stack)</gray> <yellow>damage</yellow> and <green>100%</green> <gray>(+100% per stack)</gray> <green>health.</green>"
+    },
+    {
+      "id": "irradiant_pearl",
+      "name": "Irradiant Pearl",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/irradiant_pearl.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <blue>ALL stats</blue> by <blue>10%</blue> <gray>(+10% per stack)</gray>."
+    },
+    {
+      "id": "item_scrap_yellow",
+      "name": "Item Scrap, Yellow",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/item_scrap_yellow.webp",
+      "stack_type": "-",
+      "desc": "Does nothing. Prioritized when used with 3D Printers."
+    },
+    {
+      "id": "little_disciple",
+      "name": "Little Disciple",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/little_disciple.webp",
+      "stack_type": "Linear",
+      "desc": "Fire a <yellow>tracking wisp</yellow> for <yellow>300%</yellow> <gray>(+300% per stack)</gray> <yellow>damage</yellow>. Fires every <blue>1.6</blue> seconds while sprinting. Fire rate increases with <blue>movement speed</blue>."
+    },
+    {
+      "id": "mired_urn",
+      "name": "Mired Urn",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/mired_urn.webp",
+      "stack_type": "Linear",
+      "desc": "While in combat, the nearest 1 <gray>(+1 per stack)</gray> enemies to you within <yellow>13m</yellow> will be 'tethered' to you, dealing <yellow>100%</yellow> damage per second, applying <yellow>tar</yellow>, and <green>healing</green> you for <green>100%</green> of the damage dealt."
+    },
+    {
+      "id": "molten_perforator",
+      "name": "Molten Perforator",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/molten_perforator.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>10%</yellow> chance on hit to call forth <yellow>3 magma balls</yellow> from an enemy, dealing <yellow>300%</yellow> <gray>(+300% per stack)</gray> damage each."
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/pearl.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <green>maximum health</green> by <green>10%</green> <gray>(+10% per stack)</gray>."
+    },
+    {
+      "id": "planula",
+      "name": "Planula",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/planula.webp",
+      "stack_type": "Linear",
+      "desc": "Heal from <yellow>incoming damage</yellow> for <green>15</green> <gray>(+15 per stack)</gray>."
+    },
+    {
+      "id": "queen_s_gland",
+      "name": "Queen's Gland",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/queen_s_gland.webp",
+      "stack_type": "Linear",
+      "desc": "Every 30 seconds, <blue>summon a Beetle Guard</blue> with bonus <yellow>300%</yellow> damage and <green>100% health</green>. Can have up to <blue>1</blue> <gray>(+1 per stack)</gray> Guards at a time."
+    },
+    {
+      "id": "shatterspleen",
+      "name": "Shatterspleen",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/shatterspleen.webp",
+      "stack_type": "LinearNone",
+      "desc": "Gain <yellow>5% critical chance</yellow>. <yellow>Critical Strikes bleed</yellow> enemies for <yellow>240%</yellow> base damage. <yellow>Bleeding</yellow> enemies <yellow>explode</yellow> on death for <yellow>400%</yellow> <gray>(+400% per stack)</gray> damage, plus an additional <yellow>15%</yellow> <gray>(+15% per stack)</gray> of their maximum health."
+    },
+    {
+      "id": "titanic_knurl",
+      "name": "Titanic Knurl",
+      "type": "y",
+      "dlc": null,
+      "icon": "icons/titanic_knurl.webp",
+      "stack_type": "Linear",
+      "desc": "<green>Increase maximum health</green> by <green>40</green> <gray>(+40 per stack)</gray> and <green>base health regeneration</green> by <green>+1.6 hp/s</green> <gray>(+1.6 hp/s per stack)</gray>."
+    },
+    {
+      "id": "beads_of_fealty",
+      "name": "Beads of Fealty",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/beads_of_fealty.webp",
+      "stack_type": "-",
+      "desc": "Seems to do nothing... but..."
+    },
+    {
+      "id": "brittle_crown",
+      "name": "Brittle Crown",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/brittle_crown.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>30% chance on hit</blue> to gain <blue>2</blue> <gray>(+2 per stack)</gray> <blue>gold</blue>. <blue>Scales over time.</blue>\n<red>Lose gold</red> on taking damage equal to <red>100%</red> <gray>(+100% per stack)</gray> of the <red>maximum health</red> percentage you lost.\n"
+    },
+    {
+      "id": "corpsebloom",
+      "name": "Corpsebloom",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/corpsebloom.webp",
+      "stack_type": "LinearHyperbolic",
+      "desc": "<green>Heal +100%</green> <gray>(+100% per stack)</gray> more. <green>All healing is applied over time</green>. Can <green>heal</green> for a <green>maximum</green> of <green>10%</green> <gray>(-50% per stack)</gray> of your <green>health</green> per second."
+    },
+    {
+      "id": "defiant_gouge",
+      "name": "Defiant Gouge",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/defiant_gouge.webp",
+      "stack_type": "Linear",
+      "desc": "Using a Shrine summons <red>enemies</red> <gray>(stronger per stack)</gray> nearby. <blue>Scales over time.</blue>"
+    },
+    {
+      "id": "egocentrism",
+      "name": "Egocentrism",
+      "type": "b",
+      "dlc": "sotv",
+      "icon": "icons/egocentrism.webp",
+      "stack_type": "HyperbolicLinear",
+      "desc": "Every <blue>3</blue> <gray>(-50% per stack)</gray> seconds, gain an <yellow>orbiting bomb</yellow> that detonates on impact for <yellow>360%</yellow> damage, up to a maximum of <blue>3 bombs</blue> <gray>(+1 per stack)</gray>. Every <blue>60</blue> seconds, a random item is <blue>converted</blue> into this item."
+    },
+    {
+      "id": "essence_of_heresy",
+      "name": "Essence of Heresy",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/essence_of_heresy.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Replace your Special Skill</blue> with <blue>Ruin</blue>.\nDealing damage adds a stack of <yellow>Ruin</yellow> for 10 <gray>(+10 per stack)</gray> seconds. Activating the skill <yellow>detonates</yellow> all Ruin stacks at unlimited range, dealing <yellow>300% damage</yellow> plus <yellow>120% damage per stack of Ruin</yellow>. Recharges after 8 <gray>(+8 per stack)</gray> seconds.\n"
+    },
+    {
+      "id": "eulogy_zero",
+      "name": "Eulogy Zero",
+      "type": "b",
+      "dlc": "sotv",
+      "icon": "icons/eulogy_zero.webp",
+      "stack_type": "Linear",
+      "desc": "Items have a <blue>5%</blue> <gray>(+5% per stack)</gray> chance to become a Lunar item instead."
+    },
+    {
+      "id": "focused_convergence",
+      "name": "Focused Convergence",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/focused_convergence.webp",
+      "stack_type": "Linear Hyperbolic",
+      "desc": "Teleporters charge <blue>30%</blue> <gray>(+30% per stack)</gray> <blue>faster</blue>, but the size of the Teleporter zone is <red>50%</red> <gray>(-50% per stack)</gray> smaller."
+    },
+    {
+      "id": "gesture_of_the_drowned",
+      "name": "Gesture of the Drowned",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/gesture_of_the_drowned.webp",
+      "stack_type": "Exponential",
+      "desc": "<blue>Reduce Equipment cooldown</blue> by <blue>50%</blue> <gray>(+15% per stack)</gray>. Forces your Equipment to <blue>activate</blue> whenever it is off <blue>cooldown</blue>."
+    },
+    {
+      "id": "hooks_of_heresy",
+      "name": "Hooks of Heresy",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/hooks_of_heresy.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Replace your Secondary Skill </blue> with <blue>Slicing Maelstrom</blue>.\nCharge up a projectile that deals <yellow>875% damage</yellow> per second to nearby enemies, exploding after <blue>3</blue> seconds to deal <yellow>700% damage</yellow> and <yellow>root</yellow> enemies for <blue>3</blue> <gray>(+3 per stack)</gray> seconds. Recharges after 5 <gray>(+5 per stack)</gray> seconds.\n"
+    },
+    {
+      "id": "light_flux_pauldron",
+      "name": "Light Flux Pauldron",
+      "type": "b",
+      "dlc": "sotv",
+      "icon": "icons/light_flux_pauldron.webp",
+      "stack_type": "ExponentialReciprocal",
+      "desc": "Decrease <blue>skill cooldowns</blue> by <blue>50%</blue> <gray>(+50% per stack)</gray>. Decrease <yellow>attack speed</yellow> by <yellow>50%</yellow> <gray>(+50% per stack)</gray>."
+    },
+    {
+      "id": "longstanding_solitude",
+      "name": "Longstanding Solitude",
+      "type": "b",
+      "dlc": "sots",
+      "icon": "icons/longstanding_solitude.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>On level up</blue> gain a free unlock for the next purchase <gray>(+1 free unlock per item stack)</gray> but <red>all gold is converted to experience</red>. Anything that costs gold is increased by 50% <gray>(+50% per item stack)</gray>."
+    },
+    {
+      "id": "mercurial_rachis",
+      "name": "Mercurial Rachis",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/mercurial_rachis.webp",
+      "stack_type": "Exponential",
+      "desc": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within <blue>16m</blue> <gray>(+50% per stack)</gray>, causing them to deal <yellow>+50%</yellow> damage."
+    },
+    {
+      "id": "neutronium_weight",
+      "name": "Neutronium Weight",
+      "type": "b",
+      "dlc": "alloyedcollective",
+      "icon": "icons/neutronium_weight.webp",
+      "stack_type": "Exponential Linear",
+      "desc": "<red>Reduces your stats while in combat</red>, but <blue>send this item to an enemy</blue> on hit. On death, this item will be sent to its holder's killer. \n Reduces <yellow>damage</yellow> by 30% <gray>(+10% per stack)</gray>, <yellow>attack speed</yellow> by 30% <gray>(+10% per stack)</gray>, <blue>movement speed</blue> by 30% <gray>(+10% per stack)</gray>, and <blue>armor</blue> by 35 <gray>(+15 per stack)</gray>."
+    },
+    {
+      "id": "purity",
+      "name": "Purity",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/purity.webp",
+      "stack_type": "Linear",
+      "desc": "All skill cooldowns are reduced by <blue>2</blue> <gray>(+1 per stack)</gray> seconds. All random effects are rolled <blue>+1</blue> <gray>(+1 per stack)</gray> times for an <red>unfavorable outcome</red>."
+    },
+    {
+      "id": "shaped_glass",
+      "name": "Shaped Glass",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/shaped_glass.webp",
+      "stack_type": "Exponential",
+      "desc": "Increase base damage by <yellow>100%</yellow> <gray>(+100% per stack)</gray>. <green>Reduce maximum health</green> by 50% <gray>(+50% per stack)</gray>."
+    },
+    {
+      "id": "stone_flux_pauldron",
+      "name": "Stone Flux Pauldron",
+      "type": "b",
+      "dlc": "sotv",
+      "icon": "icons/stone_flux_pauldron.webp",
+      "stack_type": "LinearHyperbolic",
+      "desc": "Increase <green>max health</green> by <green>100%</green> <gray>(+100% per stack)</gray>. Reduce <blue>movement speed</blue> by <blue>50%</blue> <gray>(+50% per stack)</gray>."
+    },
+    {
+      "id": "strides_of_heresy",
+      "name": "Strides of Heresy",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/strides_of_heresy.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Replace your Utility Skill</blue> with <blue>Shadowfade</blue>.\nFade away, becoming <blue>intangible</blue> and gaining <blue>+30% movement speed</blue>. <green>Heal</green> for <green>18.2% <gray>(+18.2% per stack)</green> of your maximum health</gray>. Lasts 3 <gray>(+3 per stack)</gray> seconds."
+    },
+    {
+      "id": "transcendence",
+      "name": "Transcendence",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/transcendence.webp",
+      "stack_type": "Linear",
+      "desc": "<green>Convert</green> all but <green>1 health</green> into <green>regenerating shields</green>. <green>Gain 50%</green> <gray>(+25% per stack)</gray> <green>maximum health.</green>"
+    },
+    {
+      "id": "visions_of_heresy",
+      "name": "Visions of Heresy",
+      "type": "b",
+      "dlc": null,
+      "icon": "icons/visions_of_heresy.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Replace your Primary Skill</blue> with <blue>Hungering Gaze</blue>.\n Fire a flurry of <blue>tracking shards</blue> that detonate after a delay, dealing <yellow>120%</yellow> base damage. Hold up to 12 charges <gray>(+12 per stack)</gray> that reload after 2 seconds <gray>(+2 per stack)</gray>."
+    },
+    {
+      "id": "benthic_bloom",
+      "name": "Benthic Bloom",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/benthic_bloom.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Upgrades 3</blue> <gray>(+3 per stack)</gray> random items to items of the next <blue>higher rarity</blue> at the <blue>start of each stage</blue>. <purple>Corrupts all 57 Leaf Clovers</purple>."
+    },
+    {
+      "id": "encrusted_key",
+      "name": "Encrusted Key",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/encrusted_key.webp",
+      "stack_type": "-",
+      "desc": "A <blue>hidden cache</blue> containing an item (60%/<green>30%</green>/<red>10%</red>) will appear in a random location <blue>on each stage</blue>. Opening the cache <blue>consumes</blue> this item. <purple>Corrupts all Rusted Keys</purple>."
+    },
+    {
+      "id": "lost_seer_s_lenses",
+      "name": "Lost Seer's Lenses",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/lost_seer_s_lenses.webp",
+      "stack_type": "Linear",
+      "desc": "Your attacks have a <yellow>0.5%</yellow> <gray>(+0.5% per stack)</gray> chance to <yellow>instantly kill</yellow> a <yellow>non-Boss enemy</yellow>. <purple>Corrupts all Lens-Maker's Glasses</purple>."
+    },
+    {
+      "id": "lysate_cell",
+      "name": "Lysate Cell",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/lysate_cell.webp",
+      "stack_type": "Linear",
+      "desc": "Add <blue>+1</blue> <gray>(+1 per stack)</gray> charge of your <blue>Special skill</blue>. <blue>Reduces Special skill cooldown</blue> by <blue>33%</blue>. <purple>Corrupts all Fuel Cells</purple>."
+    },
+    {
+      "id": "needletick",
+      "name": "Needletick",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/needletick.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>10%</yellow> <gray>(+10% per stack)</gray> chance to <yellow>collapse</yellow> an enemy for <yellow>400%</yellow> base damage. <purple>Corrupts all Tri-Tip Daggers</purple>."
+    },
+    {
+      "id": "newly_hatched_zoea",
+      "name": "Newly Hatched Zoea",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/newly_hatched_zoea.webp",
+      "stack_type": "HyperbolicLinear",
+      "desc": "Every <blue>60</blue> <gray>(-50% per stack)</gray> seconds, gain a random <purple>Void</purple> ally. Can have up to <blue>1</blue> <gray>(+1 per stack)</gray> allies at a time. <purple>Corrupts all</purple> yellow items."
+    },
+    {
+      "id": "plasma_shrimp",
+      "name": "Plasma Shrimp",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/plasma_shrimp.webp",
+      "stack_type": "Linear",
+      "desc": "Gain a <green>shield</green> equal to <green>10%</green> of your maximum health. While you have a <green>shield</green>, hitting an enemy fires a missile that deals <yellow>40%</yellow> <gray>(+40% per stack)</gray> TOTAL damage. <purple>Corrupts all AtG Missile Mk. 1s</purple>."
+    },
+    {
+      "id": "pluripotent_larva",
+      "name": "Pluripotent Larva",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/pluripotent_larva.webp",
+      "stack_type": "Linear",
+      "desc": "<blue>Upon death</blue>, this item will be <blue>consumed</blue> and you will <green>return to life</green> with <green>3 seconds of invulnerability</green>, and all of your items that can be <blue>corrupted</blue> will be. <purple>Corrupts all Dio's Best Friends</purple>."
+    },
+    {
+      "id": "polylute",
+      "name": "Polylute",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/polylute.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>25%</yellow> chance to fire <yellow>lightning</yellow> for <yellow>60%</yellow> TOTAL damage up to <yellow>3</yellow> <gray>(+3 per stack)</gray> times. <purple>Corrupts all Ukuleles</purple>."
+    },
+    {
+      "id": "safer_spaces",
+      "name": "Safer Spaces",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/safer_spaces.webp",
+      "stack_type": "Hyperbolic",
+      "desc": "<green>Blocks</green> incoming damage once. Recharges after <blue>15 seconds</blue> <gray>(-10% per stack)</gray> <purple>Corrupts all Tougher Times</purple>."
+    },
+    {
+      "id": "singularity_band",
+      "name": "Singularity Band",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/singularity_band.webp",
+      "stack_type": "Linear",
+      "desc": "Hits that deal <yellow>more than 400% damage</yellow> also fire a black hole that <blue>draws enemies within 15m into its center</blue>. Lasts <blue>5</blue> seconds before collapsing, dealing <yellow>100%</yellow> <gray>(+100% per stack)</gray> TOTAL damage. Recharges every <blue>20</blue> seconds. <purple>Corrupts all Runald's and Kjaro's Bands</purple>."
+    },
+    {
+      "id": "tentabauble",
+      "name": "Tentabauble",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/tentabauble.webp",
+      "stack_type": "HyperbolicLinear",
+      "desc": "<blue>5%</blue> <gray>(+5% per stack)</gray> chance on hit to <yellow>root</yellow> enemies for <blue>1s</blue> <gray>(+1s per stack)</gray>. <purple>Corrupts all Chronobaubles</purple>."
+    },
+    {
+      "id": "voidsent_flame",
+      "name": "Voidsent Flame",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/voidsent_flame.webp",
+      "stack_type": "Linear",
+      "desc": "Upon hitting an enemy at <yellow>full health</yellow>, spawn a <yellow>lava pillar</yellow> in a <yellow>12m</yellow> <gray>(+2.4m per stack)</gray> radius for <yellow>260%</yellow> <gray>(+156% per stack)</gray> base damage. <purple>Corrupts all Will-o'-the-wisps</purple>."
+    },
+    {
+      "id": "weeping_fungus",
+      "name": "Weeping Fungus",
+      "type": "p",
+      "dlc": "sotv",
+      "icon": "icons/weeping_fungus.webp",
+      "stack_type": "Linear",
+      "desc": "<green>Heals</green> for <green>2%</green> <gray>(+2% per stack)</gray> of your health every second <blue>while sprinting</blue>. <purple>Corrupts all Bustling Fungi</purple>."
+    },
+    {
+      "id": "blast_shower",
+      "name": "Blast Shower",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/blast_shower.webp",
+      "stack_type": null,
+      "cooldown": "20s",
+      "desc": "<blue>Cleanse</blue> all negative effects. Includes debuffs, damage over time, and nearby projectiles."
+    },
+    {
+      "id": "deus_ex_machina",
+      "name": "Deus Ex Machina",
+      "type": "o",
+      "dlc": "alloyedcollective",
+      "icon": "icons/deus_ex_machina.webp",
+      "stack_type": null,
+      "cooldown": "60s",
+      "desc": "Briefly enter a countering stance that lets you parry <blue>any and ALL damage</blue>. A successful parry <green>nullifies incoming damage</green>, reduces your equipment cooldown by <yellow>75%</yellow>, and grants <yellow>Blessing</yellow>, causing your next attack to ALWAYS activate your on-hit effects."
+    },
+    {
+      "id": "disposable_missile_launcher",
+      "name": "Disposable Missile Launcher",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/disposable_missile_launcher.webp",
+      "stack_type": null,
+      "cooldown": "45s",
+      "desc": "Fire a swarm of <yellow>12</yellow> missiles that deal <yellow>12x300% damage</yellow>."
+    },
+    {
+      "id": "eccentric_vase",
+      "name": "Eccentric Vase",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/eccentric_vase.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "Create a <blue>quantum tunnel</blue> of up to <blue>1000m</blue> in length. Lasts 30 seconds."
+    },
+    {
+      "id": "executive_card",
+      "name": "Executive Card",
+      "type": "o",
+      "dlc": "sotv",
+      "icon": "icons/executive_card.webp",
+      "stack_type": null,
+		  "cooldown": "0.1s",
+      "desc": "Whenever you make a gold purchase, get <blue>10%</blue> of the spent gold back. If the purchase is a <blue>multishop</blue> terminal, the other terminals will <blue>remain open</blue>."
+    },
+    {
+      "id": "foreign_fruit",
+      "name": "Foreign Fruit",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/foreign_fruit.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "Instantly heal for <green>50% of your maximum health</green>."
+    },
+    {
+      "id": "forgive_me_please",
+      "name": "Forgive Me Please",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/forgive_me_please.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "Throw a cursed doll out that <yellow>triggers</yellow> any <yellow>On-Kill</yellow> effects you have every <blue>1</blue> second for <blue>8</blue> seconds."
+    },
+    {
+      "id": "fuel_array",
+      "name": "Fuel Array",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/fuel_array.webp",
+      "stack_type": null,
+		  "cooldown": "-",
+      "desc": "Looks like it could power something. EXTREMELY unstable..."
+    },
+    {
+      "id": "gnarled_woodsprite",
+      "name": "Gnarled Woodsprite",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/gnarled_woodsprite.webp",
+      "stack_type": null,
+		  "cooldown": "15s",
+      "desc": "Gain a Woodsprite follower that heals for <green>1.5% of your maximum health</green>/second. Can be sent to an ally to heal them for <green>10% of their maximum health</green>."
+    },
+    {
+      "id": "goobo_jr",
+      "name": "Goobo Jr.",
+      "type": "o",
+      "dlc": "sotv",
+      "icon": "icons/goobo_jr.webp",
+      "stack_type": null,
+		  "cooldown": "100s",
+      "desc": "Spawn a gummy clone that has <yellow>300% damage</yellow> and <green>300% health</green>. Expires in <blue>30</blue> seconds."
+    },
+    {
+      "id": "gorag_s_opus",
+      "name": "Gorag's Opus",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/gorag_s_opus.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "All allies enter a <yellow>frenzy</yellow> for <blue>7</blue> seconds. Increases <blue>movement speed</blue> by <blue>50%</blue> and <yellow>attack speed</yellow> by <yellow>100%</yellow>."
+    },
+    {
+      "id": "jade_elephant",
+      "name": "Jade Elephant",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/jade_elephant.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "Gain <yellow>500 armor</yellow> for <blue>5 seconds</blue>."
+    },
+    {
+      "id": "milky_chrysalis",
+      "name": "Milky Chrysalis",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/milky_chrysalis.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc": "Sprout wings and <blue>fly for 15 seconds</blue>. Gain <blue>+20% movement speed</blue> for the duration."
+    },
+    {
+      "id": "molotov_6_pack",
+      "name": "Molotov (6-Pack)",
+      "type": "o",
+      "dlc": "sotv",
+      "icon": "icons/molotov_6_pack.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "Throw <yellow>6</yellow> molotov cocktails that <yellow>ignites</yellow> enemies for <yellow>500% base damage</yellow>. Each molotov leaves a burning area for <yellow>200% damage per second</yellow>."
+    },
+    {
+      "id": "ocular_hud",
+      "name": "Ocular HUD",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/ocular_hud.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc": "Gain <yellow>+100% Critical Strike Chance</yellow> for 8 seconds."
+    },
+    {
+      "id": "preon_accumulator",
+      "name": "Preon Accumulator",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/preon_accumulator.webp",
+      "stack_type": null,
+		  "cooldown": "140s",
+      "desc": "Fires preon tendrils, zapping enemies within 35m for up to <yellow>600% damage</yellow>/second. On contact, detonate in an enormous 20m explosion for <yellow>4000% damage</yellow>."
+    },
+    {
+      "id": "primordial_cube",
+      "name": "Primordial Cube",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/primordial_cube.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc": "Fire a black hole that <blue>draws enemies within 30m into its center</blue>. Lasts 10 seconds"
+    },
+    {
+      "id": "radar_scanner",
+      "name": "Radar Scanner",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/radar_scanner.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "<blue>Reveal</blue> all interactables within 500m for <blue>10 seconds</blue>."
+    },
+    {
+      "id": "recycler",
+      "name": "Recycler",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/recycler.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "<blue>Transform</blue> an Item or Equipment into a different one. <blue>Can only be converted into the same tier one time</blue>."
+    },
+    {
+      "id": "remote_caffeinator",
+      "name": "Remote Caffeinator",
+      "type": "o",
+      "dlc": "sotv",
+      "icon": "icons/remote_caffeinator.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc": "Request an <yellow>Eclipse Zero Vending Machine</yellow> from the <yellow>UES Safe Travels</yellow>. Delivery guaranteed in <blue>5 seconds</blue>, dealing <yellow>2000% damage</yellow>. <green>Heal</green> up to 3 targets for <green>25% of their maximum health</green>."
+    },
+    {
+      "id": "royal_capacitor",
+      "name": "Royal Capacitor",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/royal_capacitor.webp",
+      "stack_type": null,
+		  "cooldown": "20s",
+      "desc": "Call down a lightning strike on a targeted monster, dealing <yellow>3000% damage</yellow> and <yellow>stunning</yellow> nearby monsters."
+    },
+    {
+      "id": "sawmerang",
+      "name": "Sawmerang",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/sawmerang.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "Throw <yellow>three large saw blades</yellow> that slice through enemies for <yellow>3x400%</yellow> damage. Also deals an additional <yellow>3x100% damage per second</yellow> while <yellow>bleeding</yellow> enemies. Can <yellow>strike</yellow> enemies again on the way back."
+    },
+    {
+      "id": "seed_of_life",
+      "name": "Seed of Life",
+      "type": "o",
+      "dlc": "sots",
+      "icon": "icons/seed_of_life.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc": "Revives the user when killed or dead allies on activation. Consumed on use."
+    },
+    {
+      "id": "super_massive_leech",
+      "name": "Super Massive Leech",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/super_massive_leech.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc": "<green>Heal</green> for <green>20%</green> of the <yellow>damage</yellow> you deal. Lasts <green>8</green> seconds."
+    },
+    {
+      "id": "the_back_up",
+      "name": "The Back-up",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/the_back_up.webp",
+      "stack_type": null,
+		  "cooldown": "100s",
+      "desc": "Call <yellow>4 Strike Drones</yellow> to fight for you. Lasts 25 seconds."
+    },
+    {
+      "id": "the_crowdfunder",
+      "name": "The Crowdfunder",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/the_crowdfunder.webp",
+      "stack_type": null,
+		  "cooldown": "-",
+      "desc": "Fires a continuous barrage that deals <yellow>100% damage</yellow> per bullet. Costs $1 per bullet. Cost increases over time."
+    },
+    {
+      "id": "trophy_hunter_s_tricorn",
+      "name": "Trophy Hunter's Tricorn",
+      "type": "o",
+      "dlc": "sotv",
+      "icon": "icons/trophy_hunter_s_tricorn.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc": "<yellow>Execute</yellow> any enemy capable of spawning a <yellow>unique reward</yellow>, and it will drop that <yellow>item</yellow>. Equipment is <blue>consumed</blue> on use."
+    },
+    {
+      "id": "volcanic_egg",
+      "name": "Volcanic Egg",
+      "type": "o",
+      "dlc": null,
+      "icon": "icons/volcanic_egg.webp",
+      "stack_type": null,
+		  "cooldown": "30s",
+      "desc": "Turn into a <yellow>draconic fireball</yellow> for <yellow>5</yellow> seconds. Deal <yellow>500% damage</yellow> on impact. Detonates at the end for <yellow>800% damage</yellow>."
+    },
+    {
+      "id": "effigy_of_grief",
+      "name": "Effigy of Grief",
+      "type": "l",
+      "dlc": null,
+      "icon": "icons/effigy_of_grief.webp",
+      "stack_type": null,
+		  "cooldown": "15s",
+      "desc": "ALL characters within are <blue>slowed by 50%</blue> and have their <yellow>armor</yellow> reduced by 20. Can place up to <blue>5</blue>."
+    },
+    {
+      "id": "glowing_meteorite",
+      "name": "Glowing Meteorite",
+      "type": "l",
+      "dlc": null,
+      "icon": "icons/glowing_meteorite.webp",
+      "stack_type": null,
+		  "cooldown": "140s",
+      "desc": "<yellow>Rain meteors</yellow> from the sky, damaging ALL characters for <yellow>600% damage</yellow> per blast. Lasts 20 seconds."
+    },
+    {
+      "id": "helfire_tincture",
+      "name": "Helfire Tincture",
+      "type": "l",
+      "dlc": null,
+      "icon": "icons/helfire_tincture.webp",
+      "stack_type": null,
+		  "cooldown": "45s",
+      "desc": "Ignite ALL characters within 15m for 12s. Deal <yellow>5% of your maximum health</yellow>/second as burning as damage. The burn is <yellow>0.5x</yellow> stronger on yourself, <yellow>0.25x</yellow> stronger on allies, and <yellow>24x</yellow> stronger on enemies."
+    },
+    {
+      "id": "spinel_tonic",
+      "name": "Spinel Tonic",
+      "type": "l",
+      "dlc": null,
+      "icon": "icons/spinel_tonic.webp",
+      "stack_type": null,
+		  "cooldown": "60s",
+      "desc":"Drink the Tonic, gaining a boost for 20 seconds. Increases <yellow>damage</yellow> by <yellow>+100%</yellow>. Increases <yellow>attack speed</yellow> by <yellow>+70%</yellow>. Increases <yellow>armor</yellow> by <yellow>+20</yellow>. Increases <green>maximum health</green> by <green>+50%</green>. Increases <green>passive health regeneration</green> by <green>+300%</green>. Increases <blue>movespeed</blue> by <blue>+30%</blue>.\nWhen the Tonic wears off, you have a <red>20%</red> chance to gain a <red>Tonic Affliction, reducing all of your stats</red> by <red>-5%</red> <gray>(-5% per stack)</gray>."
+    },
+    {
+      "id": "aurelionite_s_blessing",
+      "name": "Aurelionite's Blessing",
+      "type": "e",
+      "dlc": "sots",
+      "icon": "icons/aurelionite_s_blessing.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of radiance. <blue>Knock</blue> gold out from targets and occasionally attack them from the ground underneath them."
+    },
+    {
+      "id": "her_biting_embrace",
+      "name": "Her Biting Embrace",
+      "type": "e",
+      "dlc": null,
+      "icon": "icons/her_biting_embrace.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of ice. Leave an ice explosion on death, and apply an 80% <blue>slow</blue> on hit."
+    },
+    {
+      "id": "his_reassurance",
+      "name": "His Reassurance",
+      "type": "e",
+      "dlc": "sotv",
+      "icon": "icons/his_reassurance.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of earth. <green>Heal</green> nearby non-mending allies. Produce a <green>healing core</green> on death, which detonates and heals all nearby allies."
+    },
+    {
+      "id": "his_spiteful_boon",
+      "name": "His Spiteful Boon",
+      "type": "e",
+      "dlc": "sots",
+      "icon": "icons/his_spiteful_boon.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of spite. Grant <blue>+300 armor</blue> to nearby allies and charge a projectile when they are are damaged."
+    },
+    {
+      "id": "ifrit_s_distinction",
+      "name": "Ifrit's Distinction",
+      "type": "e",
+      "dlc": null,
+      "icon": "icons/ifrit_s_distinction.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of fire. Leave a fire trail that hurts enemies, and apply a 50% total damage <red>burn</red> on hit."
+    },
+    {
+      "id": "n_kuhana_s_retort",
+      "name": "N'kuhana's Retort",
+      "type": "e",
+      "dlc": null,
+      "icon": "icons/n_kuhana_s_retort.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of corruption. Shoot occassional urchins and apply <red>healing disabled</red> on hit."
+    },
+    {
+      "id": "of_one_mind",
+      "name": "Of One Mind",
+      "type": "e",
+      "dlc": "alloyedcollective",
+      "icon": "icons/of_one_mind.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of the Collective."
+    },
+    {
+      "id": "shared_design",
+      "name": "Shared Design",
+      "type": "e",
+      "dlc": null,
+      "icon": "icons/shared_design.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of perfection. <blue>Cripple</blue> on hit. Occasionally fire 5 bomb projectiles at enemies. Gain 35% increased <blue>movement speed</blue>, and gain 25% <red>max health</red>. All health will be replaced with <blue>shields.</blue>"
+    },
+    {
+      "id": "silence_between_two_strikes",
+      "name": "Silence Between Two Strikes",
+      "type": "e",
+      "dlc": null,
+      "icon": "icons/silence_between_two_strikes.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of lightning. Attacks explode after a delay. 50% of <red>health</red> is replaced by <blue>shield.</blue>"
+    },
+    {
+      "id": "spectral_circlet",
+      "name": "Spectral Circlet",
+      "type": "e",
+      "dlc": null,
+      "icon": "icons/spectral_circlet.webp",
+      "stack_type": null,
+		  "cooldown": null,
+      "desc": "Become an aspect of incorporeality. <blue>Cloak</blue> nearby allies, and apply an 80% <blue>slow</blue> on hit."
+    },
+    {
+      "id": "armed_backpack",
+      "name": "Armed Backpack",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/armed_backpack.webp",
+      "stack_type": "Linear",
+      "desc": "Chance on taking damage to fire a missile for <yellow>400%</yellow> <gray>(+400% per stack)</gray> base damage. Chance scales with damage taken."
+    },
+    {
+      "id": "broken_blood_tester",
+      "name": "Broken Blood Tester",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/broken_blood_tester.webp",
+      "stack_type": "Linear",
+      "desc": "Every 30 seconds, rapidly heal for 15 (+15 per stack) health for every 25 gold you currently have. Scales with time."
+    },
+    {
+      "id": "coffee_bag",
+      "name": "Coffee Bag",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/coffee_bag.webp",
+      "stack_type": "-",
+      "desc": "<yellow>10%</yellow> chance on hit to drop a coffee bean that grants <yellow>8% attack speed</yellow> and <blue>movement speed</blue> for <blue>6 seconds</blue>. Maximum cap of <yellow>40%</yellow> <gray>(+40% per stack)</gray>."
+    },
+    {
+      "id": "detritive_trematode",
+      "name": "Detritive Trematode",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/detritive_trematode.webp",
+      "stack_type": "Linear",
+      "desc": "Enemies under <yellow>25%</yellow> <gray>(+10% per stack)</gray> <yellow>health</yellow> are <yellow>infested</yellow> for <yellow>100%</yellow> base damage <gray>(+100% per stack)</gray> per second."
+    },
+    {
+      "id": "empty_diary",
+      "name": "Empty Diary",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/empty_diary.webp",
+      "stack_type": "Linear",
+      "desc": "When entering a stage, <blue>gain 3 levels</blue> and <blue>consume this item</blue>."
+    },
+    {
+      "id": "fork",
+      "name": "Fork",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/fork.webp",
+      "stack_type": "Linear",
+      "desc": "Increase your base damage by <yellow>8%</yellow> <gray>(+8% per stack)</gray>."
+    },
+    {
+      "id": "guarding_amulet",
+      "name": "Guarding Amulet",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/guarding_amulet.webp",
+      "stack_type": "Hyperbolic",
+      "desc": "Reduce damage taken from behind by <yellow>30%</yellow> <gray>(+30% per stack)</gray>"
+    },
+    {
+      "id": "malice",
+      "name": "Malice",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/malice.webp",
+      "stack_type": "Linear",
+      "desc": "Your attacks deal <yellow>25%</yellow> TOTAL damage to up to <yellow>1</yellow> <gray>(+1 per stack)</gray> additional enemies within <yellow>12m</yellow> <gray>(+2.4m per stack).</gray>"
+    },
+    {
+      "id": "molten_coin",
+      "name": "Molten Coin",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/molten_coin.webp",
+      "stack_type": "Linear Stage Based",
+      "desc": "<yellow>6%</yellow> chance to <yellow>ignite</yellow> enemies on hit for <yellow>200%</yellow> base damage <gray>(+200% per stack)</gray> and earn <blue>$1</blue> <gray>(+$1 per stack)</gray>. <blue>Scales over time.</blue>"
+    },
+    {
+      "id": "needles",
+      "name": "Needles",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/needles.webp",
+      "stack_type": "Linear",
+      "desc": "<yellow>+4% chance</yellow> on hit to guarantee <yellow>critical strikes</yellow> on an enemy for the next <yellow>3</yellow> <gray>(+3 per stack)</gray> hits."
+    },
+    {
+      "id": "universal_charger",
+      "name": "Universal Charger",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/universal_charger.webp",
+      "stack_type": "Hyperbolic",
+      "desc": "Every <blue>18 seconds</blue> <gray>(-10% per stack)</gray>, instantly <blue>refresh the cooldown</blue> of your next <blue>non-Primary skill.</blue>"
+    },
+    {
+      "id": "uranium_horseshoe",
+      "name": "Uranium Horseshoe",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/uranium_horseshoe.webp",
+      "stack_type": "Linear",
+      "desc": "Increases <blue>movement speed</blue> and <blue>jump height</blue> by <blue>10%</blue> <gray>(+10% per stack)</gray>."
+    },
+    {
+      "id": "x4_stimulant",
+      "name": "X4 Stimulant",
+      "type": "w",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/x4_stimulant.webp",
+      "stack_type": "Linear",
+      "desc": "Reduces secondary skill cooldown by <blue>10%</blue> <gray>(+10% per stack)</gray>. Using your secondary skill <green>increases base health regen</green> by <green>+2 hp/s</green> <gray>(+1 hp/s per stack)</gray> for <blue>3</blue> seconds."
+    },
+    {
+      "id": "cryptic_source",
+      "name": "Cryptic Source",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/cryptic_source.webp",
+      "stack_type": "Linear",
+      "desc": "Upon ending your sprint, unleash a <yellow>burst of energy</yellow> in a <yellow>15m</yellow> <gray>(+3m per stack)</gray> radius for <yellow>250%</yellow> <gray>(+250% per stack)</gray> base damage."
+    },
+    {
+      "id": "field_accelerator",
+      "name": "Field Accelerator",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/field_accelerator.webp",
+      "stack_type": "Linear",
+      "desc": "After defeating the boss, the radius of the Teleporter is increased by <blue>20%</blue> <gray>(+20% per stack)</gray> and killing enemies grants <blue>+1% teleporter charge.</blue>"
+    },
+    {
+      "id": "hunters_sigil",
+      "name": "Hunter's Sigil",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/hunters_sigil.webp",
+      "stack_type": "Linear",
+      "desc": "After <blue>standing still</blue> for at least 1 second, create a <blue>8m zone</blue> granting <blue>30</blue> armor <gray>(+15 armor per stack)</gray> and <yellow>30%</yellow> increased damage <gray>(+15% per stack)</gray>. <blue>The zone lasts until you leave it.</blue>"
+    },
+    {
+      "id": "low_quality_speakers",
+      "name": "Low Quality Speakers",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/low_quality_speakers.webp",
+      "stack_type": "Linear",
+      "desc": "Chance when getting hit to stun enemies in a <orange>13m</orange> <gray>(+7m per stack)</gray> radius. Chance starts at <orange>10%</orange> and increases with <red>low health</red>."
+    },
+    {
+      "id": "man_o_war",
+      "name": "Man-o'-War",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/man_o_war.webp",
+      "stack_type": "Linear",
+      "desc": "On killing an enemy, create an electric discharge for <orange>200%</orange> base <orange>damage</orange> on up to <orange>3</orange> <gray>(+2 per stack)</gray> targets within <orange>20m</orange> <gray>(+4m per stack)</gray> meters."
+    },
+    {
+      "id": "prototype_jet_boots",
+      "name": "Prototype Jet Boots",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/prototype_jet_boots.webp",
+      "stack_type": "Linear",
+      "desc": "Gain <orange>+1</orange> extra jump that ignites enemies for <orange>500%</orange> base <orange>damage</orange> in a <orange>7.5m</orange> <gray>(+5m per stack)</gray> radius. Recharges <orange>5</orange> seconds after landing."
+    },
+    {
+      "id": "strange_can",
+      "name": "Strange Can",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/strange_can.webp",
+      "stack_type": "Linear",
+      "desc": "<orange>10%</orange> <gray>(+5% per stack)</gray> chance on hit to intoxicate an enemy dealing <orange>50%</orange> <orange>damage</orange> per second. Intoxicate stacks up to <orange>10</orange> times. Killing enemies <green>heals</green> for <green>10</green> <gray>(+5 per stack)</gray> <green>health</green> per stack of intoxicate."
+    },
+    {
+      "id": "watch_metronome",
+      "name": "Watch Metronome",
+      "type": "g",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/watch_metronome.webp",
+      "stack_type": "Linear",
+      "desc": "While not sprinting, charge up to a <orange>100%</orange> increase to <blue>sprint speed</blue>. Decays over <orange>5s</orange> <gray>(+3s per stack)</gray> seconds while sprinting."
+    },
+    {
+      "id": "composite_injector",
+      "name": "Composite Injector",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/composite_injector.webp",
+      "stack_type": "Linear",
+      "desc": "Gain <orange>1</orange> <gray>(+1 per stack)</gray> extra equipment slots. Trigger all of your equipment simultanesouly."
+    },
+    {
+      "id": "droid_head",
+      "name": "Droid Head",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/droid_head.webp",
+      "stack_type": "Linear",
+      "desc": "Killing an elite enemy spawns a Security Drone <gray>(+100% base damage per stack)</gray> for <orange>20s</orange> <gray>(+10s per stack)</gray>. Spawned drones inherit the elite type of the slain elite."
+    },
+    {
+      "id": "erratic_gadget",
+      "name": "Erratic Gadget",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/erratic_gadget.webp",
+      "stack_type": "Linear",
+      "desc": "Your lightning strikes twice. <orange>10%</orange> chance on hit to fire chain lightning for <orange>300%</orange> TOTAL <orange>damage</orange> on up to <orange>1</orange> <gray>(+1 per stack)</gray> targets."
+    },
+    {
+      "id": "galvanic_core",
+      "name": "Galvanic Core",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/galvanic_core.webp",
+      "stack_type": "Linear",
+      "desc": "<orange>10%</orange> <gray>(+10 per stack)</gray> chance on hit to stun. Stunned enemies apply razed to enemies within <orange>15m</orange> <gray>(+5m per stack)</gray>, reducing their <green>maximum health</green> by <green>20%</green>, <orange>damage</orange> by <orange>30%</orange>, and <blue>movement speed</blue> by <blue>80%</blue>."
+    },
+    {
+      "id": "green_chocolate",
+      "name": "Green Chocolate",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/green_chocolate.webp",
+      "stack_type": "Linear",
+      "desc": "When damaged for at least <orange>20%</orange> of your max HP, the excess damage is reduced by <orange>50%</orange>, and also gain a buff that grants <orange>+50%</orange> base damage and <orange>+20%</orange> critical chance for <orange>6s</orange> <gray>(+3s per stack)</gray>."
+    },
+    {
+      "id": "insecticide",
+      "name": "Insecticide",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/insecticide.webp",
+      "stack_type": "Linear",
+      "desc": "<orange>100%</orange> chance to poison an enemy for <orange>180%</orange> <gray>(+180% per stack)</gray> base <orange>damage</orange>."
+    },
+    {
+      "id": "nkotas_heritage",
+      "name": "Nkota's Heritage",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/nkotas_heritage.webp",
+      "stack_type": "Linear",
+      "desc": "Receive <orange>1</orange> <gray>(+1 per stack)</gray> items upon level up. Rarity of items increases with level."
+    },
+    {
+      "id": "portable_reactor",
+      "name": "Portable Reactor",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/portable_reactor.webp",
+      "stack_type": "Linear",
+      "desc": "Gain full invulnerability and <orange>100%</orange> <blue>movement speed</blue> for the first <orange>80s</orange> <gray>(+40s per stack)</gray> of a stage."
+    },
+    {
+      "id": "swift_skateboard",
+      "name": "Swift Skateboard",
+      "type": "r",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/swift_skateboard.webp",
+      "stack_type": "Linear",
+      "desc": "Sprint in any direction. Using a skill grants a buff which provides <orange>+20%</orange> <gray>(+15% per stack)</gray> <blue>movement speed</blue> for <orange>6</orange> seconds, up to <orange>4</orange> stacks."
+    },
+    {
+      "id": "haunted_lamp",
+      "name": "Haunted Lamp",
+      "type": "y",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/haunted_lamp.webp",
+      "stack_type": "Linear",
+      "desc": "Every <orange>5</orange> primary uses, fire a haunted projectile for <orange>200%</orange> <gray>(+200% per stack)</gray> base <orange>damage</orange>."
+    },
+    {
+      "id": "condemned_bond",
+      "name": "Condemned Bond",
+      "type": "s",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/condemned_bond.webp",
+      "stack_type": "-",
+      "desc": "Be hunted by <red>Nemesis Survivors</red>."
+    },
+    {
+      "id": "remuneration",
+      "name": "Remuneration",
+      "type": "s",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/remuneration.webp",
+      "stack_type": "-",
+      "desc": "A choice between three <red>powerful items</red> appears at the start of each stage."
+    },
+    {
+      "id": "stirring_soul",
+      "name": "Stirring Soul",
+      "type": "s",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/stirring_soul.webp",
+      "stack_type": "Linear",
+      "desc": "Slain monsters leave a soul which has a <orange>0.5%</orange> <gray>(+0.5% per unsuccessful roll, resetting on success)</gray> chance to spawn an item on pickup."
+    },
+    {
+      "id": "primal_birthright",
+      "name": "Primal Birthright",
+      "type": "b",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/primal_birthright.webp",
+      "stack_type": "Linear",
+      "desc": "Grants <orange>1</orange> <gray>(+1 per stack)</gray> Legendary Chest on each stage, <red>but you cannot leave</red> without claiming your <red>birthright</red>."
+    },
+    {
+      "id": "relic_of_force",
+      "name": "Relic of Force",
+      "type": "b",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/relic_of_force.webp",
+      "stack_type": "Linear Hyperbolic",
+      "desc": "All attacks strike <orange>1</orange> <gray>(+1 per stack)</gray> additional time for <orange>5%</orange> TOTAL <orange>damage</orange>. Consecutive strikes to the same enemy increase damage dealt by <orange>5%</orange>, up to a maximum of <orange>100%</orange> TOTAL damage dealt. Reduce attack speed and increase skill cooldowns by <red>40%</red> <gray>(-40% per stack)</gray>."
+    },
+    {
+      "id": "relic_of_mass",
+      "name": "Relic of Mass",
+      "type": "b",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/relic_of_mass.webp",
+      "stack_type": "Linear",
+      "desc": "<green>Increase maximum health</green> by <green>100%</green> <gray>(+100% per stack)</gray>. <red>Reduce acceleration and deceleration</red> by a factor of <red>8</red> <gray>(+8 per stack)</gray>."
+    },
+    {
+      "id": "relic_of_termination",
+      "name": "Relic of Termination",
+      "type": "b",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/relic_of_termination.webp",
+      "stack_type": "Hyperbolic",
+      "desc": "Every <orange>30</orange> seconds, grants a <green>buff</green> which <green>marks the next spawning enemy</green>. If defeated within <orange>30</orange> seconds <gray>(-10% per stack)</gray>, they <orange>drop an item</orange> (item rarity scales with stacks); if not, they drop nothing and delay the next mark. <red>Marked enemies have significantly increased stats</red>."
+    },
+    {
+      "id": "back_thruster",
+      "name": "Back Thruster",
+      "type": "o",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/back_thruster.webp",
+      "stack_type": null,
+      "cooldown": "25s",
+      "desc": "For <orange>8</orange> seconds, rapidly build up to <orange>200</orange> <blue>movement speed</blue> when moving in a straight line."
+    },
+    {
+      "id": "cloaking_headband",
+      "name": "Cloaking Headband",
+      "type": "o",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/cloaking_headband.webp",
+      "stack_type": null,
+      "cooldown": "45s",
+      "desc": "Become invisible and gain <orange>+40%</orange> <blue>movement speed</blue> for <orange>16</orange> seconds."
+    },
+    {
+      "id": "greater_warbanner",
+      "name": "Greater Warbanner",
+      "type": "o",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/greater_warbanner.webp",
+      "stack_type": null,
+      "cooldown": "25s",
+      "desc": "Place a greater warbanner which grants <green>+50%</green> <green>health regeneration</green>, <orange>20%</orange> critical strike chance, and <blue>50%</blue> <blue>skill cooldown reduction</blue>. Can place up to <orange>1</orange> at a time."
+    },
+    {
+      "id": "midas",
+      "name": "Midas",
+      "type": "o",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/midas.webp",
+      "stack_type": null,
+      "cooldown": "25s",
+      "desc": "Sacrifice <orange>50%</orange> of your current <green>health</green>, gaining either the amount of health lost or the price of a standard chest as gold, depending on which is higher."
+    },
+    {
+      "id": "simple_magnet",
+      "name": "Simple Magnet",
+      "type": "o",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/simple_magnet.webp",
+      "stack_type": null,
+      "cooldown": "25s",
+      "desc": "Pull surrounding pickups in a <orange>150m</orange> radius towards you."
+    },
+    {
+      "id": "white_flag",
+      "name": "White Flag",
+      "type": "o",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/white_flag.webp",
+      "stack_type": null,
+      "cooldown": "25s",
+      "desc": "Place a white flag that <orange>disables skill usage</orange> within <orange>25m</orange>. Lasts <orange>15</orange> seconds."
+    },
+    {
+      "id": "harmony",
+      "name": "Harmony",
+      "type": "e",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/harmony.webp",
+      "stack_type": null,
+      "cooldown": "-",
+      "desc": "Become an aspect of existence."
+    },
+    {
+      "id": "unstable_remnant",
+      "name": "Unstable Remnant",
+      "type": "e",
+      "dlc": "starstorm2",
+      "icon": "icons/starstorm2/unstable_remnant.webp",
+      "stack_type": null,
+      "cooldown": "-",
+      "desc": "Become an aspect of the unknown."
+    }
+
+  ]
+}

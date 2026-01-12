@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RoR2 Build Planner by Neobit</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="title">RoR2 Build Planner</div>
+      <div class="subtitle">Vanilla JS • static • shareable builds</div>
+      <div class="credits">by Neobit • version 1.0.0</div>
+    </div>
+
+    <div class="top-search">
+  <div class="search-wrap">
+    <input id="search" type="text" placeholder="Search" autocomplete="off" />
+
+    <label class="mini-check lang">
+  <input id="lang_en" type="checkbox" checked>
+  <span>english</span>
+</label>
+
+<label class="mini-check lang">
+  <input id="lang_pt" type="checkbox">
+  <span>portuguese</span>
+</label>
+  </div>
+</div>
+
+
+    <div class="top-right">
+      <div class="dlc-strip" aria-label="DLC filters">
+        <span class="strip-label">ITEMS</span>
+        <label class="mini-check"><input id="dlc_sotv" type="checkbox" checked><span>sotv</span></label>
+        <label class="mini-check"><input id="dlc_sots" type="checkbox" checked><span>sots</span></label>
+        <label class="mini-check"><input id="dlc_alloyedcollective" type="checkbox" checked><span>alloyedcollective</span></label>
+        <label class="mini-check"><input id="mod_starstorm2" type="checkbox"><span>starstorm2</span></label>
+      </div>
+      <div class="types-strip" aria-label="Types">
+        <span class="strip-label">TYPES</span>
+        <div id="typeFilters" class="type-filters"></div>
+      </div>
+      <div class="manage-strip" aria-label="Manage build">
+        <span class="strip-label">MANAGE BUILD</span>
+        <input id="buildName" class="build-name" type="text" placeholder="Untitled Build" />
+        <button id="saveBuild" class="btn mini">Save</button>
+        <button id="loadBuild" class="btn mini">Load</button>
+        <button id="importBuild" class="btn mini">Import</button>
+        <button id="exportBuild" class="btn mini">Export</button>
+        <button id="shareBuild" class="btn mini">Share</button>
+        <button id="resetBuild" class="btn mini danger">Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <div id="grid" class="gridwrap" aria-label="Items + Selected grid"></div>
+  </main>
+
+  <dialog id="modal">
+    <form method="dialog" class="modal">
+      <header class="modal-head">
+        <h3 id="modalTitle">Modal</h3>
+        <button class="btn mini" value="close">Close</button>
+      </header>
+      <div id="modalBody" class="modal-body"></div>
+      <menu id="modalActions" class="modal-actions"></menu>
+    </form>
+  </dialog>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
